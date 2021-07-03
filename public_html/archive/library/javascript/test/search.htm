@@ -1,0 +1,242 @@
+//
+
+	var locationHint = 'Hint: type suburb, town or city name';
+
+	function setupAutoComplete() {
+		$("#area").autocomplete(
+			areaData,
+			{
+				delay:1,
+				minChars:1,
+				cacheLength:150,
+				max:50,
+				matchSubset: true,
+				selectFirst:true,
+				delay:1,
+				formatItem: function(row, i, max) {
+					return row.name;
+				},
+				formatMatch: function(row, i, max) {
+					return row.name;
+				},
+				formatResult: function(row) {
+					return row.name;
+				}
+			}
+		);
+
+		$('#area').result(function(event, data, formatted) {
+			$('#arid').attr("value",data.id);
+			selectedAreaName = data.name;
+		});
+	}//end setupAutoComplete
+
+	function presetAreaAutocomplete(data) {
+		var areaLength = data.length;
+		for (i=0 ; i < areaLength ; i++) {
+			if (data[i].id == selectedArea) {
+				$('#arid').attr("value",data[i].id);
+				$('#area').attr("value",data[i].name);
+				selectedAreaName = data[i].name;
+			}
+		}
+	}//end presetAreaAutocomplete
+
+	function removeCommas(val) {
+		return str_replace(",","",val);
+	}// end removeCommas
+
+	function clearPriceDefaults(obj) {
+		var prc = (isset(obj.fieldValue()[0]) && is_numeric(removeCommas(obj.fieldValue()[0]))) ?  removeCommas(obj.fieldValue()[0]) : '-';
+		if (!is_numeric(prc)) {
+			obj.attr("value","");
+		}
+	}//end clearPriceDefaults
+
+	function defaultAreaAutocompleteHint() {
+		if (isset($('#area').fieldValue()[0]) && ($('#area').fieldValue()[0] == '')) {
+			$('#area').attr('value',locationHint);
+		}
+	}//end defaultAreaAutocompleteHint
+
+	function clearLocationHint() {
+		if (isset($('#area').fieldValue()[0]) && (trim($('#area').fieldValue()[0]) == locationHint)) {
+			$('#area').attr('value','');
+		}
+	}//end clearLocationHint
+
+	function formatFromPrice() {
+		var fprc = (isset($('#fprc').fieldValue()[0]) && is_numeric(removeCommas($('#fprc').fieldValue()[0]))) ?  removeCommas($('#fprc').fieldValue()[0]) : '';
+		if (fprc != '') {
+			$('#fprc').attr("value",number_format(fprc, 2, '.', ','));
+		} else {
+			$('#fprc').attr("value","From");
+		}
+	}// end formatFromPrice
+
+	function formatToPrice() {
+		var fprc = (isset($('#fprc').fieldValue()[0]) && is_numeric(removeCommas($('#fprc').fieldValue()[0]))) ?  removeCommas($('#fprc').fieldValue()[0]) : '';
+		var tprc = (isset($('#tprc').fieldValue()[0]) && is_numeric(removeCommas($('#tprc').fieldValue()[0]))) ?  removeCommas($('#tprc').fieldValue()[0]) : '';
+		if (tprc != '') {
+			if (round(fprc,0) < round(tprc,0)) {
+				$('#tprc').attr("value",number_format(tprc, 2, '.', ','));
+			} else {
+				$('#tprc').attr("value","To");
+				growl('Your maximum (to) price must be more then your minimum (from) price.');
+			}
+		} else {
+			$('#tprc').attr("value","To");
+		}
+	}//end formatToPrice
+
+	var searchExpanded = false;
+	function expandSearch() {
+		$('#search_extended').animate({"height": "show", "opacity": "show"}, { duration: "slow" });
+	}//end expandSearch
+
+	function contractSearch() {
+		$('#search_extended').animate({"height": "hide", "opacity": "hide"}, { duration: "slow" });
+	}//end contractSearch
+
+	function showMoreCriteria() {
+		$('#moreCriteria').animate({"height": "show", "opacity": "show"}, { duration: "slow" });
+		$('#moreCriteriaLink').hide();
+		$('#lessCriteriaLink').show();
+	}//end showMoreCriteria
+
+	function hideMoreCriteria() {
+		$('#moreCriteria').animate({"height": "hide", "opacity": "hide"}, { duration: "slow" });
+		$('#lessCriteriaLink').hide();
+		$('#moreCriteriaLink').show();
+	}//end hideMoreCriteria
+
+	function doSearch(skipArea, searchType) {
+
+		var submitForm = true; // IE6 compatibility, could not use return false due to IE6
+		skipArea = skipArea || false;
+		
+		if(selectedAreaName != $('#area').fieldValue()[0]) {
+				growl('Only items selected from the Location dropdown are valid.\n\nPlease type the name of the area you would like to search.');
+				$('#area').attr('value','');
+				$('#area').focus();
+				submitForm = false;
+		}
+		
+		if (!skipArea) {
+			//check the locations is ok.
+			if ($('#pk_golf_estate_id').val() !== null && $('#pk_golf_estate_id').val() != '' && $('#pk_golf_estate_id').val() != 0) {
+				/* do nothing */
+			}
+			else if (submitForm == true && selectedAreaName != $('#area').fieldValue()[0]) {
+				growl('Only items selected from the Location dropdown are valid.\n\nPlease type the name of the area you would like to search and\nselect the nearest match from the options provided.');
+				$('#area').attr('value','');
+				$('#area').focus();
+				submitForm = false;
+			}
+		}
+
+		//check the from price
+		if (submitForm == true && (!isset($('#fprc').fieldValue()[0]) || !is_numeric(removeCommas($('#fprc').fieldValue()[0])) || !(removeCommas($('#fprc').fieldValue()[0]) > 0))) {
+			growl('Please enter the minimum (from) price for your search.');
+			$('#fprc').attr('value','');
+			$('#fprc').focus();
+			submitForm = false;
+		}
+
+		//check the to price
+		if (submitForm == true && (!isset($('#tprc').fieldValue()[0]) || !is_numeric(removeCommas($('#tprc').fieldValue()[0])) || !(removeCommas($('#tprc').fieldValue()[0]) > 0))) {
+			growl('Please enter the maximum (to) price for your search.');
+			$('#tprc').attr('value', '');
+			$('#tprc').focus();
+			submitForm = false;
+		}
+
+		if (submitForm == true) {
+			$('#searchButton').attr('class','searching');
+			$('#searchButtonLower').attr('class','searching');
+			$('#searchForm').submit();
+
+			//set page name based on URL
+			var pageArray = top.location.href.split('/');
+			var page = '';
+
+			if (pageArray[3] == '' || pageArray[3] == 'default.php') {
+				page = 'home';
+			} else {
+				if (pageArray[4] != null && pageArray[4] != '') {
+					page = pageArray[4] + ' ' + pageArray[3];
+				} else {
+					page = pageArray[3];
+				}
+			}
+
+			if (pageArray[3].length == 0 || page == null) {
+				page = 'home';
+			}
+
+			//check if search type is set
+			if (searchType == null) searchType = 'Undefined';
+
+			// Google Analytics code
+			if (typeof(pageTracker) != 'undefined') {
+				pageTracker._trackEvent('Search', 'Search Query', 'Page: ' + page + ' Type: ' + searchType + ' Search');
+			}
+		}
+	}//end doSearch
+
+	function resetSearch() {
+		//reset location
+		$('#arid').attr("value",-1);
+		$('#area').attr("value",locationHint);
+		//reset pricerange data
+		$('#fprc').attr("value","");
+		$('#tprc').attr("value","");
+		formatToPrice();
+		formatFromPrice();
+		//reset residential data
+		$('#search_extended #bdrm').selectOptions('1',true);
+		$('#search_extended #btrm').selectOptions('1',true);
+		$('#search_extended #grge').selectOptions('0',true);
+		$('#search_extended #sprk').selectOptions('0',true);
+		$('#search_extended #rcpt').selectOptions('0',true);
+	}//end resetSearch
+
+	function setSortOrder(order) {
+		$('#sort').attr("value",order);
+	}
+
+	function checkAllTypes() {
+		$(".ptype").attr('checked', $('#ptypeAll').is(':checked'));
+	}
+
+	function showMasterSeachButton() {
+		$('#searchButton').animate({opacity:1}, { duration: 750, queue: false });
+	}
+
+	function hideMasterSeachButton() {
+		$('#searchButton').animate({opacity:0}, { duration: 750, queue: false });
+	}
+
+
+	//-------------- Event Bindings ---------------
+	// NB post DOM availability
+
+	$(document).ready(function() {
+
+		$('#fprc').focus(function() { clearPriceDefaults($('#fprc')) });
+		$('#tprc').focus(function() { clearPriceDefaults($('#tprc')) });
+		$('#area').focus(function() { clearLocationHint() });
+
+		$('#fprc').blur(function() { formatFromPrice() });
+		$('#tprc').blur(function() { formatToPrice() });
+		$('#area').blur(function() { defaultAreaAutocompleteHint() });
+
+		$('#fprc').numeric({allow:".,"});
+		$('#tprc').numeric({allow:".,"});
+
+		$('#ptypeAll').click(function() {checkAllTypes()})
+		$('#allMapAreas').click(function() {checkAllTypes()})
+
+	});
+
+//

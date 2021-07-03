@@ -1,0 +1,58 @@
+[28-May-2012 00:30:27] PHP Parse error:  syntax error, unexpected '}' in /home/willowvi/public_html/includes/auth.php on line 68
+[03-Jun-2012 13:15:49] PHP Notice:  Undefined offset:  0 in /home/willowvi/public_html/includes/auth.php on line 28
+[03-Jun-2012 13:15:49] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/class/jobSeekerCV.php(120): Zend_Db_Table_Abstract->fetchAll(Object(Zend_Db_Table_Select))
+#5 /home/willowvi/public_html/includes/auth.php(28): class_jobSeekerCV->getByjobSeekerCVReference(NULL)
+#6 /home/willowvi/p in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[03-Jun-2012 13:15:58] PHP Notice:  Undefined offset:  0 in /home/willowvi/public_html/includes/auth.php on line 28
+[03-Jun-2012 13:15:58] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/class/jobSeekerCV.php(120): Zend_Db_Table_Abstract->fetchAll(Object(Zend_Db_Table_Select))
+#5 /home/willowvi/public_html/includes/auth.php(28): class_jobSeekerCV->getByjobSeekerCVReference(NULL)
+#6 /home/willowvi/p in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[03-Jun-2012 13:16:19] PHP Notice:  Undefined offset:  0 in /home/willowvi/public_html/includes/auth.php on line 28
+[03-Jun-2012 13:16:19] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/class/jobSeekerCV.php(120): Zend_Db_Table_Abstract->fetchAll(Object(Zend_Db_Table_Select))
+#5 /home/willowvi/public_html/includes/auth.php(28): class_jobSeekerCV->getByjobSeekerCVReference(NULL)
+#6 /home/willowvi/p in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[27-Feb-2013 10:00:24 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Got error 28 from storage engine' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('jobSeekerCV', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_jobSeekerCV))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Se in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[27-Feb-2013 10:01:05 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Got error 28 from storage engine' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('jobSeekerCV', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_jobSeekerCV))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Se in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[27-Feb-2013 10:01:48 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Got error 28 from storage engine' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('jobSeekerCV', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_jobSeekerCV))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Se in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204

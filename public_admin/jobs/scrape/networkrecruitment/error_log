@@ -1,0 +1,16 @@
+[14-May-2012 15:12:08] PHP Notice:  Trying to get property of non-object in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 178
+[14-May-2012 15:12:08] PHP Notice:  Trying to get property of non-object in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 183
+[14-May-2012 15:12:08] PHP Notice:  Trying to get property of non-object in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 183
+[14-May-2012 15:12:08] PHP Fatal error:  Call to undefined method class_areaMap::getByName() in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 111
+[23-May-2012 00:32:05] PHP Notice:  Trying to get property of non-object in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 183
+[23-May-2012 00:32:05] PHP Notice:  Trying to get property of non-object in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 183
+[23-May-2012 00:32:06] PHP Notice:  Trying to get property of non-object in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 183
+[23-May-2012 00:32:06] PHP Fatal error:  Call to undefined method class_areaMap::getByName() in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 111
+[23-May-2012 00:32:50] PHP Fatal error:  Call to undefined method class_areaMap::getByName() in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 111
+[23-May-2012 00:33:33] PHP Fatal error:  Call to undefined method class_areaMap::getByName() in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 111
+[22-Jun-2012 22:15:27] PHP Fatal error:  Call to undefined method class_areaMap::getByName() in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 111
+[22-Jun-2012 22:16:03] PHP Fatal error:  Call to undefined method class_areaMap::getByName() in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 111
+[15-Oct-2012 08:49:54] PHP Fatal error:  Call to undefined method class_areaMap::getByName() in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 111
+[15-Oct-2012 08:50:12] PHP Notice:  Trying to get property of non-object in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 178
+[15-Oct-2012 08:50:12] PHP Fatal error:  Call to undefined method class_areaMap::getByName() in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 111
+[15-Oct-2012 08:50:28] PHP Fatal error:  Call to undefined method class_areaMap::getByName() in /home/willowvi/public_html/admin/jobs/scrape/networkrecruitment/Html.php on line 111

@@ -1,0 +1,48 @@
+body {
+	color: #3F3F3F;
+}
+.willowvine {
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background: none repeat scroll 0 0 #1E4F8A;
+	font-family: "Arial";
+	font-size: 20px;
+}
+.mb {
+	
+}
+.nav {
+	padding: 10px;
+	font-weight: bold;
+	background: none repeat scroll 0 0 #B7DDF2;
+	border: none;
+}
+
+.width50 {
+	width: 20px;
+}
+
+h1 {
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.search_odd_dark {
+    background: none repeat scroll 0 0 #F5F1E8;
+}
+
+.search_odd_blue {
+    background: none repeat scroll 0 0 #CCDAFF;
+}
+
+.search_item {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#jobApplicationTable {
+	background: none repeat scroll 0 0 #B7DDF2;
+	border: 2px solid #B7DDF2;
+}

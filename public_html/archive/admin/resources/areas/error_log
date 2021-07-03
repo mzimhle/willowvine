@@ -1,0 +1,506 @@
+[17-Apr-2012 23:00:30] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Table 'willowvi_data.areaMap' doesn't exist' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('areaMap', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaMap))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[17-Apr-2012 23:01:03] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Table 'willowvi_data.areaMap' doesn't exist' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('areaMap', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaMap))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[17-Apr-2012 23:02:39] PHP Fatal error:  Uncaught exception 'Zend_Db_Table_Exception' with message 'Primary key column(s) (pk_area_id) are not columns in this table (pk_areaMap_Id,fkAreaId,fkAreaParentId,fkAreaTypeId,areaMap_name,areaMap_sPath,areaMap_path,polygon_code,polygon_filename,areaMap_updated,areaMap_longitude,areaMap_latitude,areaMap_active,areaMap_added,areaMap_deleted)' in /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php:889
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaMap))
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__construct(Object(class_areaMap))
+#4 /home/willowvi/public_html/library/classes/class/areaMap.php(77): Zend_Db_Table_Abstract-> in /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php on line 889
+[17-Apr-2012 23:05:17] PHP Warning:  require_once(class/areaType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 17
+[17-Apr-2012 23:05:17] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/areaType.php' (include_path='/home/willowvi/public_html/:/home/willowvi/public_html/library/classes/') in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 17
+[17-Apr-2012 23:05:48] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Table 'willowvi_data.areaMap' doesn't exist' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('areaMap', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaMap))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[17-Apr-2012 23:06:13] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Table 'willowvi_data.areaType' doesn't exist' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('areaType', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaType))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Ta in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[17-Apr-2012 23:08:14] PHP Warning:  require_once(functions.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 16
+[17-Apr-2012 23:08:14] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'functions.php' (include_path='/home/willowvi/public_html/:/home/willowvi/public_html/library/classes/') in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 16
+[17-Apr-2012 23:13:41] PHP Notice:  Undefined variable: AREA_HTTP_PATH in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 63
+[17-Apr-2012 23:13:41] PHP Notice:  Undefined variable: AREA_ROOT_PATH in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 68
+[17-Apr-2012 23:13:41] PHP Warning:  fopen(/mpumalanga/mpumalanga.js) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 69
+[17-Apr-2012 23:13:41] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 70
+[17-Apr-2012 23:13:41] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 71
+[17-Apr-2012 23:13:41] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/admin/resources/areas/polygon.php:63) in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 80
+[17-Apr-2012 23:15:52] PHP Warning:  fopen(/home/willowvi/public_html/frames/maps/areas/mpumalanga/mpumalanga.js) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 69
+[17-Apr-2012 23:15:52] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 70
+[17-Apr-2012 23:15:52] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 71
+[17-Apr-2012 23:15:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/admin/resources/areas/polygon.php:69) in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 80
+[21-Apr-2012 01:49:00] PHP Notice:  Undefined offset:  9 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 48
+[21-Apr-2012 01:49:00] PHP Notice:  Undefined offset:  9 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 49
+[21-Apr-2012 01:49:00] PHP Notice:  Undefined offset:  9 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 49
+[21-Apr-2012 01:49:00] PHP Notice:  Undefined offset:  9 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 49
+[25-Apr-2012 23:19:29] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[25-Apr-2012 23:19:29] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[25-Apr-2012 23:19:29] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[25-Apr-2012 23:19:29] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[25-Apr-2012 23:19:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[25-Apr-2012 23:19:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[25-Apr-2012 23:19:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[25-Apr-2012 23:19:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[25-Apr-2012 23:19:44] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[25-Apr-2012 23:19:44] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[25-Apr-2012 23:19:44] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[25-Apr-2012 23:19:44] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:50:03] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 00:50:03] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:50:03] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:50:03] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:50:51] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 00:50:51] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:50:51] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:50:51] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:51:17] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 00:51:17] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:51:17] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:51:17] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:53:08] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 00:53:08] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:53:08] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 00:53:08] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:27:57] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 06:27:57] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:27:57] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:27:57] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:30:51] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 06:30:51] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:30:51] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:30:51] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:31:15] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 06:31:15] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:31:15] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:31:15] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:31:32] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 06:31:32] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:31:32] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:31:32] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:31:39] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 06:31:39] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:31:39] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:31:39] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:51:54] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 06:51:54] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:51:54] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:51:54] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:53:59] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 06:53:59] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:53:59] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:53:59] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:54:09] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 06:54:09] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:54:09] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 06:54:09] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:45:39] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 09:45:39] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:45:39] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:45:39] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:47:25] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 09:47:25] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:47:25] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:47:25] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:49:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 09:49:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:49:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:49:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:50:50] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 09:50:50] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:50:50] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:50:50] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:52:49] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 09:52:49] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:52:49] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 09:52:49] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:42:23] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 11:42:23] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:42:23] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:42:23] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:43:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 11:43:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:43:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:43:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:44:02] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 11:44:02] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:44:02] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:44:02] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:47:29] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 11:47:29] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:47:29] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:47:29] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:49:33] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 11:49:33] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:49:33] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:49:33] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:56:13] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 11:56:13] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:56:13] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:56:13] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:57:23] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 11:57:23] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:57:23] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:57:23] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:59:05] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 11:59:05] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:59:05] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:59:05] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:59:36] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 11:59:36] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:59:36] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 11:59:36] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:00:42] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:00:42] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:00:42] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:00:42] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:05:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:05:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:05:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:05:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:05:45] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:05:45] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:05:45] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:05:45] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:07:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:07:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:07:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:07:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:08:54] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:08:54] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:08:54] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:08:54] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:10:00] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:10:00] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:10:00] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:10:00] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:11:56] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:11:56] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:11:56] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:11:56] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:12:33] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:12:33] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:12:33] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:12:33] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:21:41] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:21:41] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:21:41] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:21:41] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:23:13] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:23:13] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:23:13] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:23:13] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:26:27] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:26:27] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:26:27] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:26:27] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:26:42] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:26:42] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:26:42] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:26:42] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:28:19] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:28:19] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:28:19] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:28:19] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:32:04] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:32:04] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:32:04] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:32:04] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:32:37] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:32:37] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:32:37] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:32:37] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:37:51] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:37:51] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:37:51] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:37:51] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:38:45] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:38:45] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:38:45] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:38:45] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:40:23] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:40:23] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:40:23] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:40:23] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:40:43] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:40:43] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:40:43] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:40:43] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:44:02] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:44:02] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:44:02] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:44:02] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:44:10] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:44:10] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:44:10] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:44:10] PHP Notice:  Undefined offset:  186 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:46:17] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:46:17] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:46:17] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:46:17] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:46:26] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:46:26] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:46:26] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:46:26] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:49:45] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:49:45] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:49:45] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:49:45] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:49:58] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:49:58] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:49:58] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:49:58] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:52:05] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:52:05] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:52:05] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:52:05] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:52:11] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:52:11] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:52:11] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:52:11] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:54:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:54:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:54:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:54:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:54:56] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:54:56] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:54:56] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:54:56] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:56:39] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:56:39] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:56:39] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:56:39] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:56:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:56:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:56:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:56:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:59:09] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:59:09] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:59:09] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:59:09] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:59:14] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 12:59:14] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:59:14] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 12:59:14] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:01:07] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 13:01:07] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:01:07] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:01:07] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:01:13] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 13:01:13] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:01:13] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:01:13] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:04:07] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 13:04:07] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:04:07] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:04:07] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:04:18] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 13:04:18] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:04:18] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:04:18] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:05:05] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 13:05:05] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:05:05] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:05:05] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:05:49] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 13:05:49] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:05:49] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:05:49] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:05:58] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 13:05:58] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:05:58] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:05:58] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:06:49] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 13:06:49] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:06:49] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:06:49] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:15:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[26-Apr-2012 13:15:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:15:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[26-Apr-2012 13:15:48] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:46:53] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 01:46:53] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:46:53] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:46:53] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:07] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 01:47:07] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:07] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:07] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:23] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 01:47:23] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:23] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:23] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:35] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 01:47:35] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:35] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:35] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:46] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 01:47:46] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:46] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:47:46] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:00] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 01:48:00] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:00] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:00] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:16] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 01:48:16] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:16] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:16] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:29] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 01:48:29] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:29] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:29] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:45] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 01:48:45] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:45] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:45] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:56] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 01:48:56] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:56] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 01:48:56] PHP Notice:  Undefined offset:  6 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:39:46] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 02:39:46] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:39:46] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:39:46] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:41:47] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 02:41:47] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:41:47] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:41:47] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:43:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 02:43:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:43:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:43:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:44:08] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 02:44:08] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:44:08] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:44:08] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:44:32] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 02:44:32] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:44:32] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 02:44:32] PHP Notice:  Undefined offset:  24 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 03:19:47] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 03:19:47] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 03:19:47] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 03:19:47] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 03:20:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 03:20:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 03:20:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 03:20:18] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 04:22:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 04:22:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 04:22:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 04:22:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 04:23:32] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 04:23:32] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 04:23:32] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 04:23:32] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:06:15] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 05:06:15] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:06:15] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:06:15] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:06:35] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 05:06:35] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:06:35] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:06:35] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:14:28] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 05:14:28] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:14:28] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:14:28] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:14:34] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 05:14:34] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:14:34] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:14:34] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:21:15] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'areaMap_codePath' in 'field list'' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('UPDATE `areaMap...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'UPDATE `areaMap...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('UPDATE `areaMap...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(604): Zend_Db_Adapter_Abstract->query('UPDATE `areaMap...', Array)
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1110): Zend_Db_Adapter_Abstract->update('areaMap', Array, 'fkAreaId = 3')
+#5 /home/willowvi/public_html/library/classes/class/areaMap.php(44): Ze in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[06-May-2012 05:22:48] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 05:22:48] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:22:48] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 05:22:48] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:35:02] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 13:35:02] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:35:02] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:35:02] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:35:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 13:35:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:35:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:35:38] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:36:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 13:36:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:36:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:36:04] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:55:05] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 13:55:05] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:55:05] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:55:05] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:55:10] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 13:55:10] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:55:10] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:55:10] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 13:55:24] PHP Warning:  fopen(/home/willowvi/public_html/frames/maps/areas/northwestprovince/brits.js) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 70
+[06-May-2012 13:55:24] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 71
+[06-May-2012 13:55:24] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 72
+[06-May-2012 13:55:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/admin/resources/areas/polygon.php:70) in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 81
+[06-May-2012 13:56:00] PHP Warning:  fopen(/home/willowvi/public_html/frames/maps/areas/northwestprovince/brits.js) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 70
+[06-May-2012 13:56:00] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 71
+[06-May-2012 13:56:00] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 72
+[06-May-2012 14:01:11] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 14:01:11] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:01:11] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:01:11] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:09:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 14:09:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:09:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:09:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:09:43] PHP Warning:  fopen(/home/willowvi/public_html/frames/maps/areas/northwestprovince/klerksdorp.js) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 70
+[06-May-2012 14:09:43] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 71
+[06-May-2012 14:09:43] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 72
+[06-May-2012 14:09:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/admin/resources/areas/polygon.php:70) in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 81
+[06-May-2012 14:10:04] PHP Warning:  fopen(/home/willowvi/public_html/frames/maps/areas/northwestprovince/klerksdorp.js) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 70
+[06-May-2012 14:10:04] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 71
+[06-May-2012 14:10:04] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/willowvi/public_html/admin/resources/areas/polygon.php on line 72
+[06-May-2012 14:10:09] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 14:10:09] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:10:09] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:10:09] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:42:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 14:42:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:42:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:42:17] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:42:51] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 77
+[06-May-2012 14:42:51] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:42:51] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[06-May-2012 14:42:51] PHP Notice:  Undefined offset:  7 in /home/willowvi/public_html/admin/resources/areas/areasHtml.php on line 78
+[27-Aug-2013 11:26:43 Africa/Johannesburg] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[27-Aug-2013 11:26:43 Africa/Johannesburg] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[27-Aug-2013 11:26:43 Africa/Johannesburg] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42

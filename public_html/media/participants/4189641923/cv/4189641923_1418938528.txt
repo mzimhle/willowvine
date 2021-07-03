@@ -1,0 +1,45 @@
+Below are two projects I think are relevant to you guys knowing about Willow-Nettica's abilities to create high end online products as well as management systems such as your sponsorship management tool, the two products I will be talking about are as follows:
+
+    Municipality Management System with Asset Registry
+    Mailbok - Bulk SMS and Mailing system
+
+The above systems are what I will be explaining to you as well as giving you login details to, so that you can view them both online.
+
+Also to note, this email that I sent to you guys, individually as it seems, is actually sent from my own company's management system and has the email template design of my own company branding and corporate identity.
+
+Municipality Management System
+
+This is a demo website of a municipality where a it can not only manage its own website content. It has 3 websites which are:
+
+Website - http://municipality.collop.co.za/
+Website CMS - http://municipality.collop.co.za/administration/website/
+Asset Registry - http://municipality.collop.co.za/administration/asset-registry/login.php
+
+Features:
+
+Website and CMS:
+
+    View, Add, Delete and Update galleries, documents, events, news articles, members, councillor details, tenders, attractions.
+    View municipal demarcation as per Demarcations Board of South africa along with all the wards under each councilor.
+    Send out bulk emails to all who registered as well as bulk SMS's, for notification reasons on events, new articles.
+
+﻿N.B. We have all the municipality as well as ward polygons to show for all of south africa, we have a database of about 22 million rows for all of them as well as all linked to a particular ward of which there are 220 of them.
+
+Asset Registry:
+
+This is a system that allows the municipality to keep a record of all its assets as well as print bar codes for each and everyone of them, from roads to pens bought by the municipality in order for them to make auditing by national government easier as well as for their own records, it calculates depreciation as well as appreciation as specified by the person adding it.
+
+Each and every infrastructure and community registry there can be plotted on a google maps.
+
+Please login on the website and see the single asset we added as an example.
+
+Mailbok - SMS and Emailing System
+
+The domain for this is: http://www.mailbok.co.za/
+
+Here the idea is that we customize each client's emails so that they have their own customized mailers that can have the look and feel
+
+
+
+
+

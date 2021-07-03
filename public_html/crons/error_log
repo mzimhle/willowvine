@@ -1,0 +1,118 @@
+[27-Dec-2014 23:42:48 Africa/Johannesburg] PHP Warning:  Invalid argument supplied for foreach() in /home/willowvi/public_dev/willowvine/crons/papers.php on line 76
+[27-Dec-2014 23:43:02 Africa/Johannesburg] PHP Warning:  Invalid argument supplied for foreach() in /home/willowvi/public_dev/willowvine/crons/papers.php on line 76
+[28-Dec-2014 09:25:13 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected ')' in /home/willowvi/public_dev/willowvine/crons/papers.php on line 74
+[28-Dec-2014 20:29:14 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected '}' in /home/willowvi/public_dev/willowvine/crons/email.php on line 52
+[28-Dec-2014 20:29:44 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected '}' in /home/willowvi/public_dev/willowvine/crons/email.php on line 11
+[28-Dec-2014 20:30:06 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected '}' in /home/willowvi/public_dev/willowvine/crons/email.php on line 11
+[28-Dec-2014 22:48:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willowvi/public_dev/willowvine/library/classes/class/spam.php(132): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#4 /home/willowvi/public_dev/willowvine/library/classes/class/spam.php(71): class_spam->getByCode(NULL, 1)
+#5 /home/willowvi/public_dev/willowvine/crons/email.php(87): class_spam->update(Array, 'spam_code = ''')
+#6 {main}
+  in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[28-Dec-2014 22:48:31 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willowvi/public_dev/willowvine/library/classes/class/spam.php(132): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#4 /home/willowvi/public_dev/willowvine/library/classes/class/spam.php(71): class_spam->getByCode(NULL, 1)
+#5 /home/willowvi/public_dev/willowvine/crons/email.php(87): class_spam->update(Array, 'spam_code = '56...')
+#6 {mai in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[28-Dec-2014 22:49:27 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willowvi/public_dev/willowvine/library/classes/class/spam.php(132): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#4 /home/willowvi/public_dev/willowvine/library/classes/class/spam.php(71): class_spam->getByCode(NULL, 1)
+#5 /home/willowvi/public_dev/willowvine/crons/email.php(88): class_spam->update(Array, 'spam_code = '56...')
+#6 {mai in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[02-Jan-2015 12:15:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_dev/willowvine/crons/messages.php/20' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_dev/willowvine/administration/includes/auth.php(10): Zend_Session_Namespace->__construct('BackendLogin')
+#2 /home/willowvi/public_dev/willowvine/crons/messages.php(33): require_once('/home/willowvi/...')
+#3 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Session.php on line 454
+[02-Jan-2015 12:15:14 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column '_comm._comm_item' in 'on clause'' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_messag...')
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_messag...')
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_messag...')
+#3 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/willowvi/public_dev/willowvine/library/classes/class/_message.php(72): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/willowvi/public_dev in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[02-Jan-2015 13:44:06 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected '}' in /home/willowvi/public_dev/willowvine/crons/messages.php on line 77
+[02-Jan-2015 14:56:17 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column '_comm.1981548289' in 'field list'' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `spam`.*...')
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `spam`.*...')
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `spam`.*...')
+#3 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/willowvi/public_dev/willowvine/library/classes/class/spam.php(185): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#5 /home/willowvi/public_dev/w in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[02-Jan-2015 18:33:07 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'job_adtype' in 'field list'' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('INSERT INTO `jo...')
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'INSERT INTO `jo...')
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('INSERT INTO `jo...')
+#3 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(546): Zend_Db_Adapter_Abstract->query('INSERT INTO `jo...', Array)
+#4 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Table/Abstract.php(1053): Zend_Db_Adapter_Abstract->insert('job', Array)
+#5 /home/willowvi/public_dev/willowvi in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[02-Jan-2015 18:33:32 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected $end in /home/willowvi/public_dev/willowvine/crons/keyrecruitment.php on line 53
+[02-Jan-2015 18:34:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'job_adtype' in 'field list'' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('INSERT INTO `jo...')
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'INSERT INTO `jo...')
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('INSERT INTO `jo...')
+#3 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(546): Zend_Db_Adapter_Abstract->query('INSERT INTO `jo...', Array)
+#4 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Table/Abstract.php(1053): Zend_Db_Adapter_Abstract->insert('job', Array)
+#5 /home/willowvi/public_dev/willowvi in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[02-Jun-2015 13:31:55 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/willowvi/public_html/crons/dav.php on line 48
+[18-Jun-2015 13:00:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : Column '_twitter_link' cannot be null' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(546): Zend_Db_Adapter_Abstract->query('INSERT INTO `_t...', Array)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1053): Zend_Db_Adapter_Abstract->insert('_twitter', Array)
+#4 /home/willowvi/public_html/library/classes/class/_twitter.php(30): Zend_Db_Table_Abstract->insert(Array)
+#5 /home/willowvi/public_html/crons/bitly.php(74): class_twitter->insert(Array)
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[23-Jun-2015 12:00:04 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : Column '_twitter_link' cannot be null' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(546): Zend_Db_Adapter_Abstract->query('INSERT INTO `_t...', Array)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1053): Zend_Db_Adapter_Abstract->insert('_twitter', Array)
+#4 /home/willowvi/public_html/library/classes/class/_twitter.php(30): Zend_Db_Table_Abstract->insert(Array)
+#5 /home/willowvi/public_html/crons/bitly.php(74): class_twitter->insert(Array)
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[05-Jul-2015 14:00:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : Column '_twitter_link' cannot be null' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(546): Zend_Db_Adapter_Abstract->query('INSERT INTO `_t...', Array)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1053): Zend_Db_Adapter_Abstract->insert('_twitter', Array)
+#4 /home/willowvi/public_html/library/classes/class/_twitter.php(30): Zend_Db_Table_Abstract->insert(Array)
+#5 /home/willowvi/public_html/crons/bitly.php(74): class_twitter->insert(Array)
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[09-Jul-2015 12:00:04 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't resolve host 'api.twitter.com'' in /home/willowvi/public_html/library/classes/TwitterAPIExchange.php:296
+Stack trace:
+#0 /home/willowvi/public_html/crons/bitly.php(72): TwitterAPIExchange->performRequest()
+#1 {main}
+  thrown in /home/willowvi/public_html/library/classes/TwitterAPIExchange.php on line 296
+[21-Jul-2015 21:40:14 Africa/Johannesburg] PHP Fatal error:  Call to undefined function CURLOPT_POSTFIELDS() in /home/willowvi/public_html/crons/dav.php on line 44
+[21-Jul-2015 22:09:54 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_STRING or '(' in /home/willowvi/public_html/crons/dav.php on line 107
+[22-Jul-2015 07:34:40 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected T_STRING in /home/willowvi/public_html/crons/dav.php on line 194
+[22-Jul-2015 12:26:55 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/willowvi/public_html/library/classes/class/job.php on line 208
+[22-Jul-2015 12:31:53 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/willowvi/public_html/library/classes/class/job.php on line 208
+[22-Jul-2015 12:32:05 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/willowvi/public_html/library/classes/class/job.php on line 208
+[22-Jul-2015 12:33:36 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/willowvi/public_html/library/classes/class/job.php on line 208

@@ -1,0 +1,16 @@
+[27-Dec-2014 10:55:17 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_dev/willowvine/includes/footer.php on line 786
+[09-Jan-2015 19:42:34 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_dev/willowvine/includes/footer.php on line 871
+[13-Jan-2015 19:31:00 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_dev/willowvine/library/classes/class/_comm.php on line 89
+[13-Jan-2015 21:18:50 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_dev/willowvine/library/classes/class/_comm.php on line 89
+[05-Feb-2015 03:09:20 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[16-Feb-2015 22:50:17 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[01-May-2015 13:52:05 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[03-May-2015 16:52:36 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[24-May-2015 00:42:32 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[28-Jun-2015 22:51:53 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[01-Jul-2015 19:44:30 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[04-Jul-2015 16:13:08 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[06-Jul-2015 01:46:54 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[12-Jul-2015 06:18:46 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[13-Jul-2015 19:48:47 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871
+[15-Jul-2015 07:49:38 Africa/Johannesburg] PHP Fatal error:  Call to a member function assign() on a non-object in /home/willowvi/public_html/includes/footer.php on line 871

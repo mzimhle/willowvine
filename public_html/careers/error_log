@@ -1,0 +1,63 @@
+[26-Dec-2014 12:42:13 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in careers/default.tpl line 85]: syntax error: unclosed tag \{foreach} (opened line 71). (Smarty_Compiler.class.php, line 317) in /home/willowvi/public_dev/willowvine/library/classes/smarty/Smarty.class.php on line 1095
+[25-Apr-2015 17:31:45 Africa/Johannesburg] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[25-Apr-2015 17:31:45 Africa/Johannesburg] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[26-Apr-2015 04:09:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Got error 28 from storage engine' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('category', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_category))
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__construct(Object(class_category))
+#6 /home/willowvi/public_html/library/classes/class/category.php(169): Zend_Db in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[26-Apr-2015 04:09:44 Africa/Johannesburg] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[26-Apr-2015 04:09:44 Africa/Johannesburg] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[02-May-2015 17:22:23 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : Got error -1 from storage engine' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(149): Zend_Db_Select->query()
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(755): Zend_Paginator_Adapter_DbSelect->getItems(0, 20)
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(584): Zend_Paginator->getItemsByPage(1)
+#6 /home/willowvi/public_html/careers/default.php(31): Zend_Paginator->getCurrentItems()
+#7 {main}
+  in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[03-May-2015 19:41:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Incorrect key file for table '/var/mysql_tmpfs/#sql_6bdfb_2.MYI'; try to repair it' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('category', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_category))
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__construct(Object(class_category))
+#6 /home/willowvi/public_htm in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[04-May-2015 15:05:37 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Incorrect key file for table '/var/mysql_tmpfs/#sql_6bdfb_3.MYI'; try to repair it' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('category', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_category))
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__construct(Object(class_category))
+#6 /home/willowvi/public_htm in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[14-May-2015 07:13:55 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : Got error -1 from storage engine' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(149): Zend_Db_Select->query()
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(755): Zend_Paginator_Adapter_DbSelect->getItems(0, 20)
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(584): Zend_Paginator->getItemsByPage(1)
+#6 /home/willowvi/public_html/careers/default.php(31): Zend_Paginator->getCurrentItems()
+#7 {main}
+  in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[14-May-2015 15:15:07 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Incorrect key file for table '/var/mysql_tmpfs/#sql_6bdfb_6.MYI'; try to repair it' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('category', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_category))
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__construct(Object(class_category))
+#6 /home/willowvi/public_htm in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204

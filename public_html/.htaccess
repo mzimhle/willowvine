@@ -1,0 +1,117 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteBase /
+
+DirectoryIndex index.php default.php
+Options Includes FollowSymLinks MultiViews
+
+RewriteCond %{HTTP_HOST} ^(www\.)?willowvine\.com$ [NC]
+RewriteRule ^(.*)$ http://www.willowvine.co.za/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+############################# Jobs
+
+RewriteRule ^jobs/([0-9]+)/?$						/?page=$1 								[QSA,L]
+RewriteRule ^category/([^/\.]+)/([1-9]+)?$	/?category=$1&page=$2 			[QSA,L]
+RewriteRule ^job/([^/\.]+)/([0-9]+)/?$			/details.php?url=$1&code=$2 		[QSA,L]
+
+############################# Internships
+
+RewriteRule ^internships/([0-9]+)/?$						/internships/?page=$1 									[QSA,L]
+RewriteRule ^internship/([^/\.]+)/([0-9]+)/?$			/internships/details.php?url=$1&code=$2 		[QSA,L]
+
+############################# Careers
+
+RewriteRule ^careers/([0-9]+)/?$				/careers/?page=$1 							[QSA,L]
+RewriteRule ^career/([^/\.]+)/([0-9]+)/?$	/careers/details.php?url=$1&code=$2 	[QSA,L]
+
+############################# Careers
+
+RewriteRule ^exams/([0-9]+)/?$				/exams/?page=$1 								[QSA,L]
+RewriteRule ^exam/([^/\.]+)/([0-9]+)/?$	/exams/details.php?url=$1&code=$2 	[QSA,L]
+
+############################# Advice
+
+RewriteRule ^advice/write_a_cv/?$					advice/cv.php?cde=$1	[QSA,L]
+RewriteRule ^advice/write_a_cover_letter/?$	advice/letter.php?cde=$1	[QSA,L]
+RewriteRule ^advice/interview/?$					advice/interview.php?cde=$1	[QSA,L]
+RewriteRule ^advice/career/?$						advice/career.php?cde=$1	[QSA,L]
+
+############################# Account
+
+RewriteRule ^account/edit/?$		account/details.php					[QSA,L]
+
+############################# Spam Messages
+
+RewriteRule ^messages/([0-9]+)\.(html|htm)$															/templates/messages/$1/$1.$2
+RewriteRule ^messages/([0-9]+)/images/([a-zA-Z0-9\_\.\-]+)\.(png|gif|jpeg|jpg)$	/templates/messages/$1/images/$2.$3
+
+############################# Extras
+
+RewriteRule ^modal/ajax/?$												includes/footer.php														[QSA,L]
+RewriteRule ^logout/?$														logout.php																		[QSA,L]
+RewriteRule ^terms/?$														terms.php																		[QSA,L]
+RewriteRule ^privacy/?$														privacy.php																	[QSA,L]
+RewriteRule ^error/?$														404.php																		[QSA,L]
+RewriteRule ^download/([^/\.]+)/([^/\.]+)/?$						library/download.php?type=$1&code=$2							[QSA,L]
+RewriteRule ^download/([^/\.]+)/([^/\.]+)/([^/\.]+)/?$		library/download.php?type=$1&code=$2&imagesize=$3	[QSA,L]
+
+############################# Mailers
+
+RewriteRule ^mailer/view/([^/\.]+)/?$			templates/view.php?code=$1										[QSA,L]
+RewriteRule ^mailer/tracking/([^/\.]+)/?$		templates/tracking.php?tracking=$1							[QSA,L]
+
+############################# Mailer Responses
+
+RewriteRule ^registration/verify/([^/\.]+)/?$	templates/mail_response/register_verify.php?cde=$1	[QSA,L]
+
+
+# Job Searches
+# RewriteRule ^jobs/search/([^/\.]+)/?$	jobs/search/?sectionUrl=$1 [QSA,L]
+# RewriteRule ^jobs/search/([^/\.]+)/details/([^/\.]+)/([^/\.]+)/?$	jobs/search/details.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+# RewriteRule ^jobs/search/([^/\.]+)/directions/([^/\.]+)/([^/\.]+)/?$	jobs/search/directions.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+
+# Job Mobi Searches
+# RewriteRule ^mobi/jobs/([^/\.]+)/details/([^/\.]+)/([^/\.]+)/?$	mobi/jobs/details.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+# RewriteRule ^mobi/jobs/([^/\.]+)/directions/([^/\.]+)/([^/\.]+)/?$	mobi/jobs/directions.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+
+# Job shortlist.
+# RewriteRule ^jobs/shortlist/([^/\.]+)/details/([^/\.]+)/([^/\.]+)/?$	jobs/shortlist/details.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+# RewriteRule ^jobs/shortlist/([^/\.]+)/directions/([^/\.]+)/([^/\.]+)/?$	jobs/shortlist/directions.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+
+# Job Seeker.
+# RewriteRule ^job_seeker/account/cv/?$	job_seeker/account/cv.php [QSA,L]
+
+# Careers. 
+# RewriteRule ^careers/([^/\.]+)/?$	careers/?sectionUrl=$1 [QSA,L]
+# RewriteRule ^careers/([^/\.]+)/details/([^/\.]+)/([^/\.]+)/?$	careers/details.php?sectionUrl=$1&careerName=$2&careerId=$3 [QSA,L]
+
+# Internships. 
+# RewriteRule ^internships/([^/\.]+)/?$	internships/?sectionUrl=$1 [QSA,L]
+# RewriteRule ^internships/([^/\.]+)/details/([^/\.]+)/([^/\.]+)/?$	internships/details.php?sectionUrl=$1&internshipName=$2&internshipId=$3 [QSA,L] 
+
+# Recruiters.
+#RewriteRule ^recruiter/jobs/edit/([^/\.]+)/job/([^/\.]+)/?$		recruiter/jobs/edit.php?post=$1&job=$2 [QSA,L]
+
+# Advice.
+# RewriteRule ^advice/write_a_cv/?$				advice/cv.php [QSA,L]
+# RewriteRule ^advice/write_a_cover_letter/?$		advice/cover_letter.php [QSA,L]
+# RewriteRule ^advice/interview/?$				advice/interview_tips.php [QSA,L]
+# RewriteRule ^advice/career/?$					advice/career.php [QSA,L]
+
+# About Us.
+# RewriteRule ^about_us/policy/?$					about_us/policy.php [QSA,L]
+
+# Login with gmail.
+# RewriteRule ^gmail_login/?$	includes/gmail_login.php [QSA,L]
+
+# Error pages format link.
+# RewriteRule ^errors/404/?$	errors/404.php [QSA,L]
+# RewriteRule ^errors/403/?$	errors/403.php [QSA,L]
+
+# LAST LINES. 
+ErrorDocument 404 /errors/404/
+ErrorDocument 403 /errors/403/

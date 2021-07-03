@@ -1,0 +1,64 @@
+[13-Jan-2015 15:50:29 Africa/Johannesburg] PHP Notice:  Constant ROOT already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 7
+[13-Jan-2015 15:50:29 Africa/Johannesburg] PHP Notice:  Constant LIBS already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 8
+[13-Jan-2015 15:50:29 Africa/Johannesburg] PHP Notice:  Constant WWW already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 9
+[13-Jan-2015 15:50:29 Africa/Johannesburg] PHP Notice:  Constant URI already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 10
+[13-Jan-2015 15:50:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_dev/willowvine/config/database.php/7' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_dev/willowvine/administration/includes/auth.php(10): Zend_Session_Namespace->__construct('BackendLogin')
+#2 /home/willowvi/public_dev/willowvine/administration/logout.php(11): require_once('/home/willowvi/...')
+#3 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Session.php on line 454
+[13-Jan-2015 15:50:34 Africa/Johannesburg] PHP Notice:  Constant ROOT already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 7
+[13-Jan-2015 15:50:34 Africa/Johannesburg] PHP Notice:  Constant LIBS already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 8
+[13-Jan-2015 15:50:34 Africa/Johannesburg] PHP Notice:  Constant WWW already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 9
+[13-Jan-2015 15:50:34 Africa/Johannesburg] PHP Notice:  Constant URI already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 10
+[13-Jan-2015 15:50:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_dev/willowvine/config/database.php/7' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_dev/willowvine/administration/includes/auth.php(10): Zend_Session_Namespace->__construct('BackendLogin')
+#2 /home/willowvi/public_dev/willowvine/administration/logout.php(11): require_once('/home/willowvi/...')
+#3 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Session.php on line 454
+[13-Jan-2015 16:45:10 Africa/Johannesburg] PHP Notice:  Constant ROOT already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 7
+[13-Jan-2015 16:45:10 Africa/Johannesburg] PHP Notice:  Constant LIBS already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 8
+[13-Jan-2015 16:45:10 Africa/Johannesburg] PHP Notice:  Constant WWW already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 9
+[13-Jan-2015 16:45:10 Africa/Johannesburg] PHP Notice:  Constant URI already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 10
+[13-Jan-2015 16:45:10 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_dev/willowvine/config/database.php/7' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_dev/willowvine/administration/includes/auth.php(10): Zend_Session_Namespace->__construct('BackendLogin')
+#2 /home/willowvi/public_dev/willowvine/administration/logout.php(11): require_once('/home/willowvi/...')
+#3 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Session.php on line 454
+[18-Jan-2015 09:02:38 Africa/Johannesburg] PHP Notice:  Constant ROOT already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 7
+[18-Jan-2015 09:02:38 Africa/Johannesburg] PHP Notice:  Constant LIBS already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 8
+[18-Jan-2015 09:02:38 Africa/Johannesburg] PHP Notice:  Constant WWW already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 9
+[18-Jan-2015 09:02:38 Africa/Johannesburg] PHP Notice:  Constant URI already defined in /home/willowvi/public_dev/willowvine/config/database.php on line 10
+[18-Jan-2015 09:02:38 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_dev/willowvine/config/database.php/7' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_dev/willowvine/administration/includes/auth.php(10): Zend_Session_Namespace->__construct('BackendLogin')
+#2 /home/willowvi/public_dev/willowvine/administration/logout.php(11): require_once('/home/willowvi/...')
+#3 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Session.php on line 454
+[01-Feb-2015 15:04:20 Africa/Johannesburg] PHP Warning:  require_once(Zend/Db.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/willowvi/public_admin/config/database.php on line 16
+[01-Feb-2015 15:04:20 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Db.php' (include_path='/home/willowvi/public_admin/:/home/willowvi/public_admin/library/classes/') in /home/willowvi/public_admin/config/database.php on line 16
+[01-Feb-2015 15:06:58 Africa/Johannesburg] PHP Warning:  require_once(administration/includes/auth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/willowvi/public_admin/default.php on line 14
+[01-Feb-2015 15:06:58 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'administration/includes/auth.php' (include_path='/home/willowvi/public_admin:/home/willowvi/public_html/library/classes:/home/willowvi/public_html') in /home/willowvi/public_admin/default.php on line 14
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  Smarty error: file:administration/includes/css.php is not readable in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='/home/willowvi/public_admin:/home/willowvi/public_html/library/classes:/home/willowvi/public_html') in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  Smarty error: file:administration/includes/javascript.php is not readable in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='/home/willowvi/public_admin:/home/willowvi/public_html/library/classes:/home/willowvi/public_html') in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  Smarty error: file:administration/includes/header.php is not readable in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='/home/willowvi/public_admin:/home/willowvi/public_html/library/classes:/home/willowvi/public_html') in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  Smarty error: file:administration/includes/footer.php is not readable in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925
+[01-Feb-2015 15:08:54 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='/home/willowvi/public_admin:/home/willowvi/public_html/library/classes:/home/willowvi/public_html') in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1925

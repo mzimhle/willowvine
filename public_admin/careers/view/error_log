@@ -1,0 +1,14 @@
+[01-Feb-2015 15:41:51 Africa/Johannesburg] PHP Warning:  require_once(Zend/Paginator.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/library/classes/class/career.php on line 13
+[01-Feb-2015 15:41:51 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Paginator.php' (include_path='/home/willowvi/public_admin/:/home/willowvi/public_admin/library/classes/') in /home/willowvi/public_html/library/classes/class/career.php on line 13
+[02-Feb-2015 06:58:03 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/careers/view/details.tpl" in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[02-Feb-2015 06:58:05 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/careers/view/details.tpl" in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[02-Feb-2015 06:58:06 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/careers/view/details.tpl" in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[04-May-2015 21:15:13 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Incorrect key file for table '/var/mysql_tmpfs/#sql_6bdfb_1.MYI'; try to repair it' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('administrator', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_administrator))
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__construct(Object(class_administrator))
+#6 /home/will in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204

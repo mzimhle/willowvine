@@ -1,0 +1,54 @@
+[04-Nov-2012 04:13:25] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('areaMap', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaMap))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[23-Nov-2012 14:04:36] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('areaMap', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaMap))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[27-Dec-2012 08:58:25] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('areaMap', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaMap))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[06-Mar-2013 07:59:59 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('areaMap', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaMap))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[12-Mar-2013 09:37:26 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('areaMap', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaMap))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[18-Apr-2013 09:36:26 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('areaMap', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_areaMap))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204

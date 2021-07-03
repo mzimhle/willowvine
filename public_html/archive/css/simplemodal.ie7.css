@@ -1,0 +1,42 @@
+/*
+* Agency: Clickthinking
+* URL: http://www.clickthinking.com
+*
+* Author: Bernhard Ernst
+* Creation Date: 15 April 2010
+*/
+
+/* IE 7 hacks */
+#simplemodal-container a.modalCloseImg {
+	right:6px;
+}
+
+span.select{ 
+  position: absolute; 
+  width:209px; /* With the padding included, the width is 190 pixels: the actual width of the image. */ 
+  height:21px; 
+  padding:10px 24px 0px 8px; 
+  font:12px Arial, Helvetica, sans-serif;
+  color:#3f3f3f;
+  background: none;
+  overflow: hidden;
+  border: none;
+}
+
+.complex_formstyle {
+font:12px Arial, Helvetica, sans-serif;
+color:#3f3f3f;
+width:230px;
+padding:8px 5px 9px 5px;
+line-height:10px;
+border:none;
+outline:none;
+background: none;
+overflow: hidden;
+border: none;
+}
+
+.looking_candidate_advice {
+	margin-top:-50px;
+	float:right;
+}

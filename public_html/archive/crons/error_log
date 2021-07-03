@@ -1,0 +1,164 @@
+[21-Nov-2013 10:34:39 Africa/Johannesburg] PHP Notice:  Undefined variable: where in /home/willowvi/public_html/library/classes/class/job.php on line 112
+[21-Nov-2013 10:34:39 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:34:40 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:34:50 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:34:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:35:16 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:35:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:35:55 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:35:55 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:35:59 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:35:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:36:45 Africa/Johannesburg] PHP Notice:  Undefined variable: where in /home/willowvi/public_html/library/classes/class/job.php on line 114
+[21-Nov-2013 10:36:45 Africa/Johannesburg] PHP Notice:  Undefined variable: order in /home/willowvi/public_html/library/classes/class/job.php on line 116
+[21-Nov-2013 10:36:45 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:36:45 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:36:54 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:36:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:37:21 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:37:21 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:37:21 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:37:21 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:42:43 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:42:43 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:43:08 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:43:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:44:34 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:44:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:44:44 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:44:44 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:44:56 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:44:56 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:45:18 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:45:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:45:18 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:45:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:45:18 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:45:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:45:18 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:45:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:48:24 Africa/Johannesburg] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 110
+[21-Nov-2013 10:48:24 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.* ...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.* ...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.* ...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1322): Zend_Db_Table_Abstract->_fetch(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[21-Nov-2013 10:56:07 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'job.DISTINCT job_title' in 'field list'' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.`D...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.`D...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.`D...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/willowvi/public_html/library/classes/class/job.php(115): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/willowvi/public_html/crons/jobsearch.php(77): class_job->getSearchJob()
+#6 { in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77

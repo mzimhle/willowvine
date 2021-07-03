@@ -1,0 +1,12 @@
+[11-Jun-2012 21:36:45] PHP Fatal error:  Call to undefined method class_internshipShare::getPaginatedInternshipShare() in /home/willowvi/public_html/admin/resources/internshipShare/internshipShareHtml.php on line 36
+[12-Feb-2013 09:16:08 Europe/Helsinki] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[12-Feb-2013 09:16:08 Europe/Helsinki] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[12-Feb-2013 09:16:08 Europe/Helsinki] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[12-Feb-2013 09:16:08 Europe/Helsinki] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[12-Feb-2013 09:16:08 Europe/Helsinki] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[12-Feb-2013 09:16:08 Europe/Helsinki] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[03-Nov-2013 17:08:14 Africa/Johannesburg] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[03-Nov-2013 17:08:14 Africa/Johannesburg] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[03-Nov-2013 17:08:14 Africa/Johannesburg] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[03-Nov-2013 17:08:14 Africa/Johannesburg] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42
+[03-Nov-2013 17:08:14 Africa/Johannesburg] PHP Deprecated:  Function split() is deprecated in /home/willowvi/public_html/admin/includes/filter.php on line 42

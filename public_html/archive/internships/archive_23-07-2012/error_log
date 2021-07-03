@@ -1,0 +1,2 @@
+[06-Jun-2012 08:34:04] PHP Fatal error:  Smarty error: [in internships/details.tpl line 4]: syntax error: unrecognized tag: $page|"1" (Smarty_Compiler.class.php, line 446) in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[06-Jun-2012 08:36:23] PHP Fatal error:  Smarty error: [in internships/default.tpl line 6]: syntax error: unrecognized tag: $page|'1' (Smarty_Compiler.class.php, line 446) in /home/willowvi/public_html/library/classes/smarty/Smarty.class.php on line 1095

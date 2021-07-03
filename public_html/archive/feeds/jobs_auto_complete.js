@@ -1,0 +1,1 @@
+var jobs = ["  LOAN OFFER APPLY NOW","  Typist."," 45 Stock Takers \/ Packers Needed for EDCON- (JHB)"," Admin \/ Data verwerkings klerk"," Admin Support Required"," Administration Assistant"," Administrators Needed"," Call centre "," Call Centre Consultant"," Catering Supervisor"];

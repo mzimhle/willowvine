@@ -1,0 +1,882 @@
+[22-Jul-2012 22:36:00] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[22-Aug-2012 11:35:28] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[22-Aug-2012 15:00:59] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[19-Sep-2012 20:44:50] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[21-Sep-2012 10:05:35] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[21-Sep-2012 11:27:54] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[21-Sep-2012 12:30:03] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[25-Sep-2012 12:05:44] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[26-Sep-2012 16:13:36] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[29-Sep-2012 14:57:46] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[01-Oct-2012 12:31:21] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[02-Oct-2012 16:41:52] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[04-Oct-2012 09:24:52] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[08-Oct-2012 10:12:52] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[08-Oct-2012 11:26:35] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[09-Oct-2012 13:35:32] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[10-Oct-2012 11:27:34] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[10-Oct-2012 17:55:53] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[10-Oct-2012 18:05:13] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[10-Oct-2012 20:58:59] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[11-Oct-2012 08:34:31] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[12-Oct-2012 16:51:26] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[14-Oct-2012 22:26:22] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[15-Oct-2012 11:00:43] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[16-Oct-2012 22:35:49] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[17-Oct-2012 09:59:02] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[17-Oct-2012 12:17:37] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[18-Oct-2012 09:47:00] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[18-Oct-2012 13:58:08] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[20-Oct-2012 21:29:36] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[22-Oct-2012 09:49:12] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[22-Oct-2012 11:25:48] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('jobSeeker', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#6 /home/willowvi/public_html/library/classes/Zend/Db in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[22-Oct-2012 11:25:55] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('jobSeeker', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#6 /home/willowvi/public_html/library/classes/Zend/Db in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[22-Oct-2012 11:26:06] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('jobSeeker', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#6 /home/willowvi/public_html/library/classes/Zend/Db in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[22-Oct-2012 11:26:55] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('jobSeeker', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#6 /home/willowvi/public_html/library/classes/Zend/Db in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[22-Oct-2012 11:28:13] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[22-Oct-2012 13:05:59] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[22-Oct-2012 15:24:22] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[23-Oct-2012 11:40:44] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[23-Oct-2012 17:09:00] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[23-Oct-2012 17:39:30] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[24-Oct-2012 09:20:01] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[24-Oct-2012 14:18:06] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[25-Oct-2012 10:41:29] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[25-Oct-2012 10:51:12] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[26-Oct-2012 14:57:17] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[26-Oct-2012 19:32:59] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[27-Oct-2012 11:12:34] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[30-Oct-2012 09:46:00] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[30-Oct-2012 11:02:19] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[30-Oct-2012 12:45:43] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[03-Nov-2012 10:10:15] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[05-Nov-2012 07:35:34] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[12-Nov-2012 00:28:09] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[12-Nov-2012 08:26:46] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[12-Nov-2012 08:29:30] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[12-Nov-2012 12:48:06] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[14-Nov-2012 11:56:53] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[15-Nov-2012 23:23:23] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[16-Nov-2012 17:48:46] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[19-Nov-2012 08:55:10] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[19-Nov-2012 10:25:01] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[19-Nov-2012 10:33:45] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[19-Nov-2012 16:36:04] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[20-Nov-2012 09:59:31] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[21-Nov-2012 12:23:24] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[21-Nov-2012 12:32:29] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[23-Nov-2012 09:01:24] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[23-Nov-2012 09:03:33] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[23-Nov-2012 13:58:03] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[27-Nov-2012 15:05:06] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[02-Dec-2012 19:50:18] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[07-Dec-2012 12:45:17] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[24-Dec-2012 22:49:17] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[26-Dec-2012 19:26:06] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[30-Dec-2012 08:41:05] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[17-Jan-2013 13:00:58] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[17-Jan-2013 17:07:54] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/7' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/w in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[01-Mar-2013 15:47:12 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[04-Mar-2013 15:18:23 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[09-Apr-2013 09:57:33 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[09-Apr-2013 10:39:34 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[18-Jun-2013 14:33:44 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[29-Jul-2013 11:19:57 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[29-Jul-2013 13:38:40 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[28-Aug-2013 10:32:41 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[06-Sep-2013 01:32:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[22-Nov-2013 11:31:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[18-Dec-2013 08:42:14 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[06-May-2014 17:32:25 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[22-May-2014 20:59:24 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[24-May-2014 05:02:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[02-Jun-2014 10:27:19 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[03-Jun-2014 19:52:40 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[06-Oct-2014 10:47:41 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[11-Nov-2014 11:16:10 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[10-Dec-2014 12:58:14 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454
+[27-Dec-2014 19:54:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php/10' in /home/willowvi/public_html/library/classes/Zend/Session.php:454
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home/willowvi/public_html/config/location.php(11): Zend_Session_Namespace->__construct('loc')
+#2 /home/willowvi/public_html/includes/search_jobs.php(4): require_once('/home/willowvi/...')
+#3 /home/willowvi/public_html/library/classes/smarty/Smarty.class.php(1925): include('/home/willowvi/...')
+#4 /home/willowvi/public_html/library/classes/smarty/internals/core.smarty_include_php.php(40): Smarty->_include('includes/search...', false, Array)
+#5 /home/willowvi/public_html/cache/smarty/compile/%%10^106^10695C2B%%activate.tpl.php(32): smarty_core_smarty_include_php(Array, Object(Smarty))
+#6 /home/ in /home/willowvi/public_html/library/classes/Zend/Session.php on line 454

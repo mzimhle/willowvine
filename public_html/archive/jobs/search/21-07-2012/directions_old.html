@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>WillowVine | Online Job Classified Adverts {if isset($jobData)}- {$jobData.job_title|default:""}: {$jobData.section_name|default:""},  {$jobData.job_area}{else}| Job Not Found - {$jobReference}{/if}</title>
+<meta name="description" content="Only jobs and careers in your area, city or town." />
+<meta name="keywords" content="south african jobs,south africa careers,jobs south africa,willowvine,willowvine,jobs,careers, Cape Town, East London, Port Elizabeth, Johannesburg, Durban, Polokwane, Bloemfontein, Pretoria" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{include_php file="includes/css.php"}
+{include_php file="includes/javascript.php"}
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places" type="text/javascript"></script>
+{literal}
+    <style type="text/css">
+      #directions-panel {
+        height: 100%;
+        float: right;
+        width: 390px;
+        overflow: auto;
+      }
+        #directions-panel {
+          float: none;
+          width: auto;
+        }
+      }
+    </style>
+<script type="text/javascript">
+      var directionDisplay;
+      var directionsService = new google.maps.DirectionsService();
+
+      function initialize() {
+        directionsDisplay = new google.maps.DirectionsRenderer();
+        var myOptions = {
+          zoom: 10,          
+          center: new google.maps.LatLng({/literal}{$jobData.job_latitude}, {$jobData.job_longitude}{literal}),
+		  mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById('map_canvas'),
+            myOptions);
+        directionsDisplay.setMap(map);
+        directionsDisplay.setPanel(document.getElementById('directions-panel'));
+      }
+
+      function calcRoute() {
+        var start = document.getElementById('location').value;
+        var end = {/literal}'{if $jobData.job_address neq ''}{$jobData.job_address}{elseif isset($areaData) AND $areaData.polygon_code neq ''}{$areaData.areaMap_shortPath}{elseif $jobData.job_longitude neq '' and $jobData.job_latitude neq ''}{$jobData.job_area}{else}{$jobData.job_area}{/if}'{literal};
+        var travel;
+		
+		if(document.getElementById("WALKING").checked == true ) {
+			travel = google.maps.DirectionsTravelMode.WALKING;
+		} else {
+			travel = google.maps.DirectionsTravelMode.DRIVING;
+		}
+		
+		var request = {
+          origin: start,
+          destination: end,
+          travelMode: travel
+        };
+        directionsService.route(request, function(response, status) {
+          if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+          }
+        });
+      }	
+	/* Get User location. */
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+{/literal}
+</head>
+<body>
+<div id="home">
+	<div id="main">
+<!-- Start Header -->
+{include_php file="includes/header.php"}
+<!-- End Header -->
+<!-- Start Navigation -->
+{include_php file="includes/navigation.php"}
+<!-- End Navigation -->
+<!-- Start Navigation -->
+<div id="contnav">
+	<p>
+	<a href="/">Home</a> &nbsp; 
+	<span class="dash">|</span> &nbsp; 
+	<a href="/jobs/search/">Jobs</a> &nbsp; 		
+	{if isset($jobData.job_title)}
+	<span class="dash">|</span> &nbsp; 
+	<a href="/jobs/search/?sectionId={$jobData.pk_section_id}">{$jobData.section_name}</a>
+	{/if}
+	<span class="dash">|</span> &nbsp; 
+	<span class="orange_text">{if isset($jobData.job_title)}{$jobData.job_title}{else}Job Reference: '{$jobReference}' not found.{/if}</span></p>
+	</p>
+</div>
+<!-- End Navigation -->
+<div id="content">
+	<div class="inleft">
+		<p class="ptitle">Job/Interview Directions</p>
+		<p><span class="orange_text">{$jobData.job_title}</span></p>
+		<p><span>{$jobData.job_area}</span></p>
+	</div>
+	<div class="complex_back"><a href="/jobs/search/{$jobData.section_urlName}/details/{$jobData.job_link}/{$jobData.job_reference}/?searchArea={$searchArea}&searchJob={$searchJob}&sectionId={$sectionId}&page={$page}">Back to the Job</a></div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	<div id="leftcontent">
+		<div><b>From:</b> <input type="text" id="location" name="location" size="100" onchange="" /></div>
+		<br />
+		<div><b>To:</b> {if $jobData.job_address neq ''}{$jobData.job_address}{elseif isset($areaData) AND $areaData.polygon_code neq ''}{$areaData.areaMap_shortPath}{elseif $jobData.job_longitude neq '' and $jobData.job_latitude neq ''}{$jobData.job_area}{else}{$jobData.job_area}{/if}</div>				
+		<br />
+		<div>
+			<b>Are you :</b> <input type="radio" name="transport"  id="WALKING" /> Walking  &nbsp; &nbsp; <input type="radio" name="transport" CHECKED id="DRIVING" /> Driving 
+			<div class="complex_back"><a href="Javascript: calcRoute();">Get Directions</a></div>
+		</div>				
+		<br /><br />
+		
+		<div id="bottomcon" style="float: none;padding-top: 0; width: 700px; margin: auto;">
+			<div id="map_canvas" style="height: 510px; width: 700px;" align="center"></div>
+		</div><!-- ending of bottomcon -->
+		<div id="directions-panel"></div>	
+	</div><!-- ending of leftcontent -->
+	<div id="rightcontent" class="fr">			
+		<!-- Start top jobs -->
+		{include_php file="includes/top_jobs.php"}
+		<!-- End top jobs -->				
+	</div><!-- ending of rightcontent -->
+</div><!-- ending of content -->
+	</div><!--ending of main-->
+</div><!--ending of home--><div class="clear"></div>
+	<!-- Start footer -->
+	{include_php file="includes/footer.php"}
+	<!-- End footer -->	
+	{literal}
+<script language="JavaScript" type="text/javascript">
+jQuery(document).ready(function() {
+	function init() {
+
+		var input = document.getElementById('location');
+		var autocomplete = new google.maps.places.Autocomplete(input);
+		autocomplete.setTypes([]);
+		
+		/* Get reference of the selected area. */
+		google.maps.event.addListener(autocomplete, 'place_changed', function() {
+			var place = autocomplete.getPlace();			
+		});
+	}
+	google.maps.event.addDomListener(window, 'load', init);
+	
+	
+    var input = document.getElementById('location');
+    var autocomplete = new google.maps.places.Autocomplete(input);
+	
+});
+</script>
+{/literal}
+</body>
+</html>

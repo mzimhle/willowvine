@@ -1,0 +1,92 @@
+/*! responsive-nav.js 1.0.32 by @viljamis */
+@media screen and (max-width: 800px) {
+.navbar{
+background: #202020;
+padding: 0 0 0 0;
+}
+.mainnav ul {
+text-align: left;
+margin: 0;
+padding: 0;
+width: 100%;
+display: block;
+list-style: none;
+background: #434343;
+}
+.mainnav li a{
+font-size: 100%;
+letter-spacing: 1px;
+color: #FFF;
+font-weight: bold;
+text-transform: uppercase;
+padding: 15px 0 15px 18px;
+display: block;
+background: #434343;
+border-bottom: 1px solid #FFF;
+float: none;
+}
+.mainnav a.hbtn{
+color: #FFF;
+background: none;
+padding: 15px 0 15px 18px;
+border-top: 1px solid #FFF;
+}
+.mainnav a:hover{
+background: #2fb567;
+}
+.js .mainnav {
+clip: rect(0 0 0 0);
+max-height: 0;
+position: absolute;
+display: block;
+zoom: 1;
+background: #202020;
+}
+.mainnav.opened {
+max-height: 9999px;
+background: #202020;
+}
+.disable-pointer-events {
+pointer-events: none !important;
+}
+#menubtn{
+letter-spacing: 1px;
+font-size: 100%;
+text-transform: uppercase;
+font-weight: bold;
+color: #FFF;
+text-align: left;
+padding: 12px 0 12px 46px;
+cursor: pointer;
+background: #434343 url(../images/menu_btn.png) no-repeat 18px;
+}
+.mainnav span{
+font-size: 160%;
+padding: 0 10px 0 0;
+}
+.nav-toggle{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+}
+@media screen and (min-width: 801px) {
+.mainnav span,
+#menubtn{
+display: none;
+}
+.js .mainnav {
+position: relative;
+background: #202020;
+}
+.js .mainnav.closed {
+max-height: none;
+}
+.nav-toggle {
+display: none;
+}
+}

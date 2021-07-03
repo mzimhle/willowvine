@@ -1,0 +1,26 @@
+[05-Jun-2012 00:41:53] PHP Warning:  require_once(twitter/twitteroauth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 14
+[05-Jun-2012 00:41:53] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'twitter/twitteroauth.php' (include_path='/home/willowvi/public_html/:/home/willowvi/public_html/library/classes/') in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 14
+[05-Jun-2012 00:42:48] PHP Notice:  Undefined index:  oauth_token in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[05-Jun-2012 00:42:48] PHP Notice:  Undefined index:  oauth_token_secret in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[05-Jun-2012 00:42:48] PHP Notice:  Undefined index:  oauth_token in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 23
+[05-Jun-2012 00:42:48] PHP Notice:  Undefined index:  oauth_token_secret in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 24
+[05-Jun-2012 00:44:15] PHP Notice:  Undefined index:  oauth_token in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[05-Jun-2012 00:44:15] PHP Notice:  Undefined index:  oauth_token_secret in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[05-Jun-2012 00:44:15] PHP Notice:  Undefined index:  oauth_token in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 23
+[05-Jun-2012 00:44:15] PHP Notice:  Undefined index:  oauth_token_secret in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 24
+[21-Jun-2012 19:42:19] PHP Notice:  Undefined index:  oauth_token in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[21-Jun-2012 19:42:19] PHP Notice:  Undefined index:  oauth_token_secret in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[21-Jun-2012 19:42:19] PHP Notice:  Undefined index:  oauth_token in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 23
+[21-Jun-2012 19:42:19] PHP Notice:  Undefined index:  oauth_token_secret in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 24
+[11-Jul-2013 20:38:51 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[11-Jul-2013 20:38:51 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token_secret in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[11-Jul-2013 20:38:51 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 23
+[11-Jul-2013 20:38:51 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token_secret in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 24
+[12-Jul-2013 00:34:27 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[12-Jul-2013 00:34:27 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token_secret in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[12-Jul-2013 00:34:27 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 23
+[12-Jul-2013 00:34:27 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token_secret in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 24
+[28-Oct-2014 13:19:35 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[28-Oct-2014 13:19:35 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token_secret in /home/willowvi/public_html/library/classes/twitter/twitteroauth.php on line 82
+[28-Oct-2014 13:19:35 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 23
+[28-Oct-2014 13:19:35 Africa/Johannesburg] PHP Notice:  Undefined index: oauth_token_secret in /home/willowvi/public_html/job_seeker/register/twitter/default.php on line 24

@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Willowvine Mailer</title>
+{literal}
+<style type="text/css">
+/* Client-specific Styles */
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+
+/* Reset Styles */
+body{margin:0; padding:0; background-color: #FFFFFF; font-size: 20px;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+table td{border-collapse:collapse;}
+#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+a { text-decoration: none; color: white;}
+</style>
+{/literal}
+</head>
+<body style="margin: 0; padding: 0; text-align: center; background-color: #FFFFFF;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="background: #FFFFFF">
+	<tr>
+    	<td>
+            <table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td align="left" style="font-size: 20px; font-family: Helvetica, Verdana, Arial, sans-serif; color: #FFFFFF; background-color: #007f44; padding: 15px;" bgcolor="#007f44">
+                    	<span style="font-size: 13px; font-weight: bold;">{$smarty.now|date_format}</span><br />
+						<span style="font-size: 40px; font-weight: bold;">Web Enquiry</span><br />
+						<span style="font-size: 18px; font-weight: bold;">REF#{$enquiry.enquiry_code}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" style="font-size: 14px; font-family: Helvetica, Verdana, Arial, sans-serif; color: #434343; padding: 15px;">
+                    	<p>Good day {$enquiry.enquiry_name},</p>
+						<p>Thank you for your online enquiry, we will get back to you as soon as possible, below was your enquiry message:</p>
+						<p><i>"{$enquiry.enquiry_message}"</i></p>
+                     <p>Thank You,<br />The Willowvine Team</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="404" height="40" align="left" style="font-size: 14px; font-family: Helvetica, Verdana, Arial, sans-serif; color: #FFFFFF; background-color: #202020; padding: 15px;" bgcolor="#202020">
+                    	You recieved this email from <a style="text-decoration: none; font-weight: bold; color: #FFFFFF;" href="http://www.willowvine.co.za">www.willowvine.co.za</a>
+                    </td>
+                </tr>
+            </table>
+		</td>
+	</tr>
+	<tr>
+		<td height="40" align="center" valign="middle" style="font-size: 12px; font-family: Helvetica, Verdana, Arial, sans-serif;">
+			<a style="text-decoration: none; color: black;" href="http://www.willowvine.co.za/mailer/view/{$tracking}">Click here to view this mailer on a browser</a>
+			<img src="http://www.willowvine.co.za/mailer/tracking/{$tracking}" width="0" height="0" border="0"  />	
+		</td>
+	</tr>	
+</table>
+</body>
+</html>

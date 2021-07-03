@@ -1,0 +1,4 @@
+/* CSS Document */
+img,#footer {
+	behavior: url("iepngfix.htc")
+}

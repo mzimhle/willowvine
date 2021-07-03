@@ -1,0 +1,11 @@
+[11-Feb-2013 09:16:04 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('administrator', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_administrator))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Sele in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[01-Feb-2015 15:16:47 Africa/Johannesburg] PHP Warning:  require_once(administration/includes/auth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/willowvi/public_admin/participants/default.php on line 15
+[01-Feb-2015 15:16:47 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'administration/includes/auth.php' (include_path='/home/willowvi/public_admin:/home/willowvi/public_html/library/classes:/home/willowvi/public_html') in /home/willowvi/public_admin/participants/default.php on line 15

@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body style="margin:0; padding: 0;color: #3F3F3F;font-size: 12px;">
+<p><br />
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Verdana, Geneva, Arial, helvetica, sans-serif; color: #3F3F3F;font-size: 12px;;">
+  <tr>
+  	<td colspan="2" style="border-bottom: 1px solid #e1e1e7;">
+		<img src="http://www.willowvine.co.za/emails/logo_big_cut.png" width="650" height="90" />
+	</td>
+  </tr>
+	<tr>
+		<td height="30" colspan="2" style="font-size: 15px;padding-bottom: 13px;" align="center"><strong><h2>Bursaries, internships and jobs for 2012/2013</h2></strong></td>
+	</tr>
+	<tr>
+		<td height="30" colspan="2" align="center" style="font-size: 16px;padding-bottom: 10px;"><strong>Visit our website <a href="http://www.willowvine.co.za/" style="text-decoration: none; color: #CA7316; " >willowvine</a> to see for yourself.</strong></td></tr>
+	<tr>
+  	<td colspan="2" style="border-bottom: 5px solid #e1e1e7;">&nbsp;</td>
+  </tr>	
+  
+	<tr>
+		<td colspan="2" style="border-bottom: 5px solid #e1e1e7; padding-bottom: 5px; padding-top: 5px; font-size: 16px;" align="left">
+			<strong>Latest Internships /  Bursaries</strong>			
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="padding-top: 15px;" align="left">
+			<table width="100%">
+				{foreach from=$internshipData item=item}
+				<tr>
+					<td style="padding-bottom: 20px;">
+						<a style="text-decoration: none; color: black;" href="http://www.willowvine.co.za/internships/{$item.section_urlName}/details/{$item.internship_link}/{$item.pk_internship_id}/" target="_blank">
+							<b>{$item.internship_title}</b><br>
+							<span style="color: #CA7316; font-weight: bold;">{$item.internship_company}</span><br>
+							{$item.internship_page|normal_text|strip_tags|truncate:250}
+						</a>
+					</td>
+				</tr>
+				{/foreach}
+			</table>
+		</td>
+	</tr>
+	<tr>
+  	<td colspan="2" style="border-bottom: 5px solid #e1e1e7;">&nbsp;</td>
+  </tr>		
+	<tr>
+		<td colspan="2" style="border-bottom: 5px solid #e1e1e7; padding-bottom: 5px; padding-top: 5px; font-size: 16px;" align="left">
+			<strong>Latest Jobs</strong>			
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="padding-top: 15px;" align="left">
+			<table width="100%">
+				{foreach from=$jobData item=item}
+				<tr>
+					<td style="padding-bottom: 20px;">
+						<a style="text-decoration: none; color: black;" href="http://www.willowvine.co.za/jobs/search/{$item.section_urlName}/details/{$item.job_link}/{$item.job_reference}/" target="_blank">
+							<b>{$item.job_title}</b><br>
+							<span style="color: #CA7316; font-weight: bold;">{$item.section_name}</span><br>
+							{$item.job_page|normal_text|strip_tags|truncate:250}
+						</a>
+					</td>
+				</tr>
+				{/foreach}
+			</table>
+		</td>
+	</tr>	
+	<tr>
+  	<td colspan="2" style="border-bottom: 5px solid #e1e1e7;">&nbsp;</td>
+  </tr>			
+	<tr>
+		<td colspan="2" style="border-bottom: 5px solid #e1e1e7; padding-bottom: 5px; padding-top: 5px; font-size: 16px;" align="left">
+			<strong>Start up your career path with us!</strong>			
+	</td>
+	</tr>	
+	<tr>
+		<td height="30" style="color: #CA7316;"><a href="http://www.facebook.com/willowvine/" style="color: #CA7316; text-decoration: none;"><strong>Find us on Facebook</strong></a></td>
+		<td height="30" style="color: #CA7316;"><a href="http://twitter.com/willowvine" style="color: #CA7316; text-decoration: none;"><strong>Follow us on twitter (@willowvine)</strong></a></td>
+	</tr>
+	<tr>
+		<td height="30" style="color: #CA7316;"><a href="http://www.willowvine.co.za/" style="color: #CA7316; text-decoration: none;"><strong>Register your CV with us!</strong></a></td>
+		<td height="30" style="color: #CA7316;"><a href="http://www.willowvine.co.za/internships/" style="color: #CA7316; text-decoration: none;"><strong>Search for bursaries/internships/scholarships</strong></a></td>
+	</tr>
+	<tr>
+		<td height="30" style="color: #CA7316;"><a href="http://www.willowvine.co.za/careers/" style="color: #CA7316; text-decoration: none;"><strong>Learn about other careers</strong></a></td>
+		<td height="30" style="color: #CA7316;"><a href="http://www.willowvine.co.za/jobs/search/" style="color: #CA7316; text-decoration: none;"><strong>Search for Jobs</strong></a></td>
+	</tr>
+	<tr>
+  	<td colspan="2" style="border-bottom: 5px solid #e1e1e7;">&nbsp;</td>
+  </tr>		
+</table>
+</body>
+</html>

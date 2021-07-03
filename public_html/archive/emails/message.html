@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body style="margin:0; padding: 0;color: #3F3F3F;font-size: 12px;">
+<p><br />
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Verdana, Geneva, Arial, helvetica, sans-serif; color: #3F3F3F;font-size: 12px;;">
+  <tr>
+  	<td colspan="2" style="border-bottom: 1px solid #e1e1e7;">&nbsp;</td>
+  </tr>
+	<tr>
+		<td height="30" colspan="2" style="color: #705B35;font-size: 15px;padding-bottom: 13px;"><strong><h2>Willowvine | Message</h2></strong></td>
+	</tr>
+	<tr>
+		<td height="30" colspan="2" align="center"><strong>Good day, {$jobSeekerData.jobSeeker_name} {$jobSeekerData.jobSeeker_surname}</strong></td></tr>
+	<tr>
+  	<td colspan="2" style="border-bottom: 1px solid #e1e1e7;">&nbsp;</td>
+  </tr>	
+<tr>
+		<td height="20" colspan="2">&nbsp;</td>
+	</tr>  
+	<tr>
+		<td colspan="2"  height="60">{$data.jobSeeker_message}<br><br>Kind Regards,<br>Willowvine</td>
+	</tr>		
+  <tr>
+  	<td colspan="2" style="border-bottom: 1px solid #e1e1e7;">&nbsp;</td>
+  </tr>	
+	<tr>
+  	<td colspan="2" style="border-bottom: 5px solid #e1e1e7;">&nbsp;</td>
+  </tr>			
+{include_php file='emails/email_footer.php'}    
+</table>
+</body>
+</html>

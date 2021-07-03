@@ -1,0 +1,180 @@
+[24-Oct-2012 14:43:46] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[24-Oct-2012 14:43:46] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[04-Nov-2012 04:13:49] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[20-Nov-2012 03:04:20] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[28-Nov-2012 22:16:37] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[28-Nov-2012 22:16:37] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[28-Nov-2012 22:16:37] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[27-Dec-2012 08:58:25] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[27-Feb-2013 17:28:08 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Got error 28 from storage engine' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__ in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[27-Feb-2013 17:28:08 Europe/Helsinki] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[27-Feb-2013 17:28:08 Europe/Helsinki] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[27-Feb-2013 17:28:38 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Got error 28 from storage engine' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__ in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[27-Feb-2013 17:28:38 Europe/Helsinki] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[27-Feb-2013 17:28:38 Europe/Helsinki] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[22-Apr-2013 05:35:38 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_section))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__constr in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[12-May-2013 08:13:14 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('section', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Selec in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[18-May-2014 22:46:06 Africa/Johannesburg] PHP Warning:  imagecreatefromjpeg(bgimage.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 5
+[18-May-2014 22:46:06 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 7
+[18-May-2014 22:46:06 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 8
+[18-May-2014 22:46:06 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 9
+[18-May-2014 22:46:06 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 10
+[18-May-2014 22:46:06 Africa/Johannesburg] PHP Warning:  imageloadfont(font.gdf) [<a href='function.imageloadfont'>function.imageloadfont</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 12
+[18-May-2014 22:46:06 Africa/Johannesburg] PHP Warning:  imagestring() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 13
+[18-May-2014 22:46:06 Africa/Johannesburg] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/jobs/post/captcha.php:5) in /home/willowvi/public_html/jobs/post/captcha.php on line 16
+[18-May-2014 22:46:06 Africa/Johannesburg] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 17
+[18-May-2014 22:46:08 Africa/Johannesburg] PHP Warning:  imagecreatefromjpeg(bgimage.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 5
+[18-May-2014 22:46:08 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 7
+[18-May-2014 22:46:08 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 8
+[18-May-2014 22:46:08 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 9
+[18-May-2014 22:46:08 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 10
+[18-May-2014 22:46:08 Africa/Johannesburg] PHP Warning:  imageloadfont(font.gdf) [<a href='function.imageloadfont'>function.imageloadfont</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 12
+[18-May-2014 22:46:08 Africa/Johannesburg] PHP Warning:  imagestring() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 13
+[18-May-2014 22:46:08 Africa/Johannesburg] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/jobs/post/captcha.php:5) in /home/willowvi/public_html/jobs/post/captcha.php on line 16
+[18-May-2014 22:46:08 Africa/Johannesburg] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 17
+[18-May-2014 22:46:23 Africa/Johannesburg] PHP Warning:  imagecreatefromjpeg(bgimage.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 5
+[18-May-2014 22:46:23 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 7
+[18-May-2014 22:46:23 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 8
+[18-May-2014 22:46:23 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 9
+[18-May-2014 22:46:23 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 10
+[18-May-2014 22:46:23 Africa/Johannesburg] PHP Warning:  imageloadfont(font.gdf) [<a href='function.imageloadfont'>function.imageloadfont</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 12
+[18-May-2014 22:46:23 Africa/Johannesburg] PHP Warning:  imagestring() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 13
+[18-May-2014 22:46:23 Africa/Johannesburg] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/jobs/post/captcha.php:5) in /home/willowvi/public_html/jobs/post/captcha.php on line 16
+[18-May-2014 22:46:23 Africa/Johannesburg] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 17
+[18-May-2014 22:46:33 Africa/Johannesburg] PHP Warning:  imagecreatefromjpeg(bgimage.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 5
+[18-May-2014 22:46:33 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 7
+[18-May-2014 22:46:33 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 8
+[18-May-2014 22:46:33 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 9
+[18-May-2014 22:46:33 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 10
+[18-May-2014 22:46:33 Africa/Johannesburg] PHP Warning:  imageloadfont(font.gdf) [<a href='function.imageloadfont'>function.imageloadfont</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 12
+[18-May-2014 22:46:33 Africa/Johannesburg] PHP Warning:  imagestring() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 13
+[18-May-2014 22:46:33 Africa/Johannesburg] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/jobs/post/captcha.php:5) in /home/willowvi/public_html/jobs/post/captcha.php on line 16
+[18-May-2014 22:46:33 Africa/Johannesburg] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 17
+[18-May-2014 22:46:45 Africa/Johannesburg] PHP Warning:  imagecreatefromjpeg(bgimage.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 5
+[18-May-2014 22:46:45 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 7
+[18-May-2014 22:46:45 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 8
+[18-May-2014 22:46:45 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 9
+[18-May-2014 22:46:45 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 10
+[18-May-2014 22:46:45 Africa/Johannesburg] PHP Warning:  imageloadfont(font.gdf) [<a href='function.imageloadfont'>function.imageloadfont</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 12
+[18-May-2014 22:46:45 Africa/Johannesburg] PHP Warning:  imagestring() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 13
+[18-May-2014 22:46:45 Africa/Johannesburg] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/jobs/post/captcha.php:5) in /home/willowvi/public_html/jobs/post/captcha.php on line 16
+[18-May-2014 22:46:45 Africa/Johannesburg] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 17
+[18-May-2014 22:47:02 Africa/Johannesburg] PHP Warning:  imagecreatefromjpeg(bgimage.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 5
+[18-May-2014 22:47:02 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 7
+[18-May-2014 22:47:02 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 8
+[18-May-2014 22:47:02 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 9
+[18-May-2014 22:47:02 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 10
+[18-May-2014 22:47:02 Africa/Johannesburg] PHP Warning:  imageloadfont(font.gdf) [<a href='function.imageloadfont'>function.imageloadfont</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 12
+[18-May-2014 22:47:02 Africa/Johannesburg] PHP Warning:  imagestring() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 13
+[18-May-2014 22:47:02 Africa/Johannesburg] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/jobs/post/captcha.php:5) in /home/willowvi/public_html/jobs/post/captcha.php on line 16
+[18-May-2014 22:47:02 Africa/Johannesburg] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 17
+[18-May-2014 22:47:17 Africa/Johannesburg] PHP Warning:  imagecreatefromjpeg(bgimage.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 5
+[18-May-2014 22:47:17 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 7
+[18-May-2014 22:47:17 Africa/Johannesburg] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 8
+[18-May-2014 22:47:17 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 9
+[18-May-2014 22:47:17 Africa/Johannesburg] PHP Warning:  imageline() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 10
+[18-May-2014 22:47:17 Africa/Johannesburg] PHP Warning:  imageloadfont(font.gdf) [<a href='function.imageloadfont'>function.imageloadfont</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/jobs/post/captcha.php on line 12
+[18-May-2014 22:47:17 Africa/Johannesburg] PHP Warning:  imagestring() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 13
+[18-May-2014 22:47:17 Africa/Johannesburg] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/willowvi/public_html/jobs/post/captcha.php:5) in /home/willowvi/public_html/jobs/post/captcha.php on line 16
+[18-May-2014 22:47:17 Africa/Johannesburg] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/willowvi/public_html/jobs/post/captcha.php on line 17
+[24-Jun-2014 17:26:14 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Mail_Exception' with message 'From Header set twice' in /home/willowvi/public_html/library/classes/Zend/Mail.php:664
+Stack trace:
+#0 /home/willowvi/public_html/jobs/post/default.php(124): Zend_Mail->setFrom('no-reply@willow...', 'Willowvine')
+#1 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Mail.php on line 664

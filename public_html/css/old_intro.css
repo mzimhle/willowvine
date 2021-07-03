@@ -1,0 +1,225 @@
+body{
+font-family: Helvetica, Arial, Tahoma, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+background: #FFF url(/images/main_bck.gif) repeat-x top;
+text-align: center;
+}
+@font-face{
+font-family: 'Bebas';
+src: url('/css/fonts/bebas.eot');
+src: local('?'),
+	url("/css/fonts/bebas.woff") format("woff"),
+    url("/css/fonts/bebas.otf") format("opentype"),
+    url("/css/fonts/bebas.svg#bebas") format("svg");
+font-style: normal;
+font-weight: normal;
+word-spacing: 2px;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+img{
+max-width: 100%;
+}
+h1, h2{
+font-family: 'Bebas', Helvetica, Arial;
+font-size: 53.4px;
+padding: 0;
+margin: 0;
+text-transform: uppercase;
+line-height: 38px;
+}
+h2{
+font-size: 52.5px;
+}
+.mainbox{
+max-width: 800px;
+width: 100%;
+margin: auto;
+}
+header{
+max-width: 100%;
+width: 800px;
+margin: auto;
+padding: 10px 0 36px 0;
+}
+.logobox{
+float: left;
+max-width: 163px;
+width: 100%;
+padding: 8px 0 0 0;
+}
+.socbox a img{
+*max-width: 28px;
+*width: 100%;	
+}
+.soontxt{
+font-family: 'Bebas', Helvetica, Arial;
+font-size: 65px;
+color: #F2F2F2;
+float: right;
+max-width: 637px;
+}
+.topbox{
+float: left;
+width: 100%;
+max-width: 267px;
+}
+.box2{
+max-width: 266px;
+width: 100%;
+}
+.topbox img{
+width: 100%;
+}
+.subbox{
+color: #FFF;
+background: #EF3F3F;
+margin: -4px 0 0 0;
+text-align: left;
+max-width: 800px;
+width: 100%;
+}
+.regbox{
+font-size: 12px;
+max-width: 375px;
+width: 100%;
+border-right: 1px solid #F04F4C;
+float: left;
+margin: 31px 0;
+}
+.regtxt{
+padding: 0 26px 0 28px;	
+}
+p.subhead{	
+font-family: 'Bebas', Helvetica, Arial;
+font-size: 24.4px;
+word-spacing: 2px;
+margin: 10px 0 0 0;
+}
+p.ntext{
+text-align: justify;
+width: 318px;
+}
+.socbox{
+padding: 11px 0 11px 28px;
+margin: 15px 0 0 0\9;
+background: #F16052;
+width: 85%;
+}
+p.sub2{
+font-size: 25px;
+margin: 0;
+float: left;
+padding: 0 20px 0 0;
+}
+.socbox img{
+margin: 5px 5px 0 0;
+}
+.formbox{
+max-width: 395px;
+width: 100%;
+float: left;
+margin: 22px 0 0 28px;
+}
+label{
+font-family: 'Bebas', Helvetica, Arial;
+font-size: 28px;
+margin: 0;
+display: block;
+clear: both;
+}
+input[type=text], input[type=email]{
+color: #666666;
+padding: 6px 5px;
+border: 2px solid #FFF;
+width: 358px;
+margin: 0 0 11px 0;
+}
+input[type=submit]{
+width: 182px;
+height: 60px;
+background: url(/images/signup_btn.gif) no-repeat;
+text-indent: -999999px;
+border: 0;
+margin: 8px 0 0 0;
+}
+input[type="submit"]:hover{
+background: url(/images/signup_over_btn.gif) no-repeat;
+}
+.soclogbox{
+padding: 11px 0 6px 8px;
+background: #F16052;
+max-width: 144px;
+width: 36%;
+float: right;
+margin: 0 0 0 244px;
+position: absolute;
+top: 630px;
+}
+img.signtxt{
+display: block;
+margin: -5px 0 0 0;
+}
+.floattxt{
+float: right;
+width: 20px;
+margin: -48px 177px 0 0;
+margin: -54px 177px 0 0\9;
+}
+input.error{
+border: 2px solid #af1010;
+}
+form span{
+font-size: 11px;
+margin: -4px 0 0 0;
+margin: -8px 0 0 75px\9;
+float: left;
+display: block;
+line-height: 0;
+}
+a.logbtn{
+text-indent: -999999px;
+width: 24px;
+height: 25px;
+margin: 10px 8px 0 0;
+float: left;
+}
+a.f{
+background: url(/images/fbs_btn.gif) no-repeat;
+}
+a:hover.f{
+background: url(/images/fbs_over_btn.gif) no-repeat;
+}
+a.tw{
+background: url(/images/tws_btn.gif) no-repeat;
+}
+a:hover.tw{
+background: url(/images/tws_over_btn.gif) no-repeat;
+}
+a.in{
+background: url(/images/ins_btn.gif) no-repeat;
+}
+a:hover.in{
+background: url(/images/ins_over_btn.gif) no-repeat;
+}
+a.g{
+background: url(/images/gs_btn.gif) no-repeat;
+}
+a:hover.g{
+background: url(/images/gs_over_btn.gif) no-repeat;
+}
+.cf:after{
+visibility: hidden;
+display: block;
+content: "";
+clear: both;
+height: 0;
+max-height: 0;
+}
+*:first-child+html .cf{ /* IE7 */
+zoom: 1;
+}
+.preloads{
+display: none;	
+}

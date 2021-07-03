@@ -1,0 +1,63 @@
+[26-Dec-2014 13:49:41 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willowvi/public_dev/willowvine/library/classes/class/cv.php(72): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/willowvi/public_dev/willowvine/account/default.php(18): class_cv->getByParticipant(NULL)
+#5 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[26-Dec-2014 13:51:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willowvi/public_dev/willowvine/library/classes/class/cv.php(72): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/willowvi/public_dev/willowvine/account/default.php(18): class_cv->getByParticipant(NULL)
+#5 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[26-Dec-2014 13:52:48 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willowvi/public_dev/willowvine/library/classes/class/participantlogin.php(334): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/willowvi/public_dev/willowvine/account/details.php(17): class_participantlogin->getByParticipant(NULL)
+#5 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[26-Dec-2014 13:53:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willowvi/public_dev/willowvine/library/classes/class/participantlogin.php(334): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/willowvi/public_dev/willowvine/account/details.php(17): class_participantlogin->getByParticipant(NULL)
+#5 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[26-Dec-2014 13:59:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willowvi/public_dev/willowvine/library/classes/class/participantlogin.php(334): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/willowvi/public_dev/willowvine/account/details.php(17): class_participantlogin->getByParticipant(NULL)
+#5 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[26-Dec-2014 14:06:45 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willowvi/public_dev/willowvine/library/classes/class/participantlogin.php(334): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/willowvi/public_dev/willowvine/account/details.php(17): class_participantlogin->getByParticipant(NULL)
+#5 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[26-Dec-2014 14:12:31 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willowvi/public_dev/willowvine/library/classes/class/cv.php(72): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/willowvi/public_dev/willowvine/account/default.php(18): class_cv->getByParticipant(NULL)
+#5 {main}
+  thrown in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 214

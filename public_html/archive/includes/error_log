@@ -1,0 +1,45 @@
+[05-Jun-2012 00:46:39] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'twitter_uid' in 'where clause'' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `jobSeek...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `jobSeek...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `jobSeek...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1506): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1368): Zend_Db_Table_Abstract->_fetch(Object(Zend_Db_Table_Select))
+#5 /home/willowvi/public_html/library/classes/class/jobSeeker.php(160): Zend_Db_ in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[05-Jun-2012 01:10:56] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/willowvi/public_html/includes/auth_twitter.php on line 70
+[08-Jun-2012 00:41:22] PHP Notice:  Undefined offset:  0 in /home/willowvi/public_html/includes/share_internship_with_friend.php on line 93
+[08-Jun-2012 00:41:23] PHP Notice:  Undefined index:  jobShare_friendName in /home/willowvi/public_html/includes/share_internship_with_friend.php on line 97
+[08-Jun-2012 00:42:08] PHP Notice:  Undefined index:  jobShare_friendName in /home/willowvi/public_html/includes/share_internship_with_friend.php on line 97
+[11-Jun-2012 16:16:46] PHP Notice:  Undefined index:  job in /home/willowvi/public_html/includes/share_with_friend.php on line 49
+[11-Jun-2012 16:16:47] PHP Notice:  Undefined index:  id in /home/willowvi/public_html/includes/share_internship_with_friend.php on line 47
+[19-Jul-2012 01:11:46] PHP Warning:  require_once(gmail/openid.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/willowvi/public_html/includes/gmail_login.php on line 18
+[19-Jul-2012 01:11:46] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'gmail/openid.php' (include_path='/home/willowvi/public_html/:/home/willowvi/public_html/library/classes/') in /home/willowvi/public_html/includes/gmail_login.php on line 18
+[01-Nov-2012 11:01:29] PHP Notice:  Undefined index:  job in /home/willowvi/public_html/includes/share_with_friend.php on line 49
+[21-Nov-2012 15:36:53] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `job`.*,...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `job`.*,...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `job`.*,...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/willowvi/public_html/library/classes/class/job.php(218): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/willowvi/public_html/includes/shortlist.php(47): class_job->getByReference(6895)
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[27-Feb-2013 09:55:59 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Got error 28 from storage engine' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('jobSeeker', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_jobSeeker))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[27-Feb-2013 09:57:09 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Got error 28 from storage engine' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('jobSeeker', NULL)
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_jobSeeker))
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 204

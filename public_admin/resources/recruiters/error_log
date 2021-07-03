@@ -1,0 +1,9 @@
+[22-Dec-2014 16:05:00 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'areapost_deleted' in 'where clause'' in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `recruit...')
+#1 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `recruit...')
+#2 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `recruit...')
+#3 /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/willowvi/public_dev/willowvine/library/classes/class/recruiter.php(60): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/willowvi/public in /home/willowvi/public_dev/willowvine/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[22-Dec-2014 16:29:01 Africa/Johannesburg] PHP Fatal error:  Call to undefined method class_recruiter::validateEmail() in /home/willowvi/public_dev/willowvine/administration/resources/recruiters/details.php on line 65

@@ -1,0 +1,15 @@
+body{
+	background: #ffffff;	
+}
+
+.sidecont, #mainnav, #footer, #icons, .footer_partners, #main_logo, .corner, .topl, .topr, .botl, .botr {
+	display: none;
+}
+
+.maincont{
+	width: 100%;
+}
+
+#print_logo{
+	display: block;
+}

@@ -1,0 +1,122 @@
+
+/* ********** STYLES FOR TOP NAVIGATION BELOW **************** */
+
+body { 
+	margin: 0px 0px 0px 0px;	
+}
+
+ /* ********** bevel top & backgrnd colour for top table with logos in **************** */
+.topTable {
+	border-top:1px solid #EFEFEF;
+	background-color:#919394;
+	}
+	
+/* ********** bevel style for topnav border black **************** */	
+.topNavBorder_black {
+	border-top:1px solid black;
+ 	border-bottom:1px solid black;
+}
+
+/* ********** bevel style for topnav white bevel & TD background colour **************** */
+.topNavBevel_white {
+	border-top:1px solid white;
+ 	background-color:#B2B3B4;
+}
+
+/* ********** backgrnd colour style for the left & right buttons on topnav **************** */
+.topNavButtons{
+	background-color:#A3000A;
+}
+
+/* ********** backgrnd colour style for the middle of the topnav **************** */
+.topNavCenter {
+	background-color:#F7F6F2;
+}
+
+/* ********** text style for left & right buttons on topnav NB - [HOVER COLOR MUST BE SAME AS TOPNAVBEVEL_WHITE BACKGRND COLOR] [also applied to tab buttons such as hide/add]**************** */
+.topNavButtonText { font-family: Arial; font-size: 10px; color: #FFFFFF; text-decoration: none ; padding-left: 0px; padding-right: 0px}
+.topNavButtonText a:hover {font-family: Arial;  font-size: 10px; color: #B2B3B4; text-decoration: none; padding-left:0px; padding-right: 0px}
+.topNavButtonText a:link {font-family: Arial;  font-size: 10px; color: #FFFFFF; text-decoration: none ; padding-left: 0px; padding-right: 0px}
+.topNavButtonText a:visited {font-family: Arial;  font-size: 10px; text-decoration: none ; padding-left: 0px; padding-right: 0px}
+
+/* ********** middle button td seperator  **************** */
+.topNavMiddleButtons {
+	border-right:1px solid #B2B3B4;
+}
+
+/* ********** text style for middle buttons on topnav **************** */
+.topNavMiddleText  { font-family: Arial; font-size: 10px; color: #000000; text-decoration: none ; padding-left: 0px; padding-right: 0px}
+.topNavMiddleText a:hover {font-family: Arial;  font-size: 10px; color: #4E452D; text-decoration: none; padding-left:0px; padding-right: 0px}
+.topNavMiddleText a:link {font-family: Arial; font-size: 10px; color: #000000; text-decoration: none ; padding-left: 0px; padding-right: 0px}
+.topNavMiddleText a:visited {font-family: Arial;  font-size: 10px; text-decoration: none ; padding-left: 0px; padding-right: 0px}
+
+/* ********** rollover button style for middle buttons ON state [also applied to the Logon Forgot Password button] **************** */
+.topNavMiddle_rollOverOn {
+	background-color:#B2B3B4;
+	border-right:1px solid #B2B3B4;
+}
+
+/* ********** rollover button style for middle buttons OFF state  [also applied to the Logon Forgot Password button] **************** */
+.topNavMiddle_rollOveroff {
+	background-color:#F7F6F2;
+	border-right:1px solid #B2B3B4;
+}
+
+
+/* ********** STYLES FOR MAINTABLE BELOW **************** */
+
+/* ********** text style for title tab **************** */
+.titleTab { border-top:1px solid #CCCCCC; border-right:1px solid #CCCCCC; background-color:#000000; font-family: Verdana; font-size: 10px; color: #FFFFFF; text-decoration: none ; padding-bottom: 4px;padding-top: 4px; padding-left: 0px; padding-right: 0px}
+.titleTab a:hover {font-family: Verdana;  font-size: 10px; color: #4E452D; text-decoration: none; padding-bottom: 4px;padding-top: 4px; padding-left: 0px; padding-right: 0px}
+.titleTab a:link {font-family: Verdana;  font-size: 10px; color: #FFFFFF; text-decoration: none ; padding-bottom: 4px;padding-top:4px; padding-left: 0px; padding-right: 0px}
+.titleTab a:visited {font-family: Verdana;  font-size: 10px; text-decoration: none ; padding-bottom: 4px;padding-top: 4px; padding-left: 0px; padding-right: 0px}
+
+
+/* ********** maintable border/background colour **************** */
+.mainTableBorder {
+	border-width:1px 1px 1px 1px;
+	border-style:solid;
+	border-color:#B2AFA9;
+	background-color:#EFEFEF;
+}
+
+
+/* ********** text style for maintable top row **************** */
+.mainTableTopRow { border-top:1px solid #FFFFFF; border-bottom:1px solid #B2AFA9; border-right:1px solid #B2AFA9; background-color:#B2B3B4; font-family: Verdana; font-size: 10px; color: #ffffff; text-decoration: none ; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+.mainTableTopRow:link {font-family: Verdana;  font-size: 10px; color: #000000; text-decoration: none ; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+.mainTableTopRow:visited {font-family: Verdana;  font-size: 10px; text-decoration: none ; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+.mainTableTopRow:hover {font-family: Verdana;  font-size: 10px; color: #4E452D; text-decoration: none; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+
+/* ********** rollover style for maintable rows ON state **************** */
+.mainTableRow_rollOverOn{
+	background-color:#E6DDDD;
+}
+
+
+/* ********** text style for maintable rows **************** */
+.mainTableRow { font-family: Verdana; font-size: 10px; color: #000000; text-decoration: none ; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+.mainTableRow a:link {font-family: Verdana;  font-size: 10px; color: #000000; text-decoration: none ; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+.mainTableRow a:visited {font-family: Verdana;  font-size: 10px; color: #000000; text-decoration: none ; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+.mainTableRow a:hover {font-family: Verdana;  font-size: 10px; color: #ffffff; text-decoration: none; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+
+/* ********** text style for footer rows **************** */
+.footerTableRow { font-family: Verdana; font-size: 10px; color: #000000; text-decoration: none ; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+
+
+/* ********** form element style **************** */
+.formElement { border-top:1px solid #B2B3B4; border-bottom:1px solid #B2B3B4; border-left:1px solid #B2B3B4; border-right:1px solid #B2B3B4; background-color:#FFFFFF; font-family: Verdana; font-size: 10px; color: #000000; text-decoration: none ; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+
+.formElementReq { background-color: #E6DDDD; border-top:1px solid #B2B3B4; border-bottom:1px solid #B2B3B4; border-left:1px solid #B2B3B4; border-right:1px solid #B2B3B4; font-family: Verdana; font-size: 10px; color: #000000; text-decoration: none ; padding-bottom: 2px;padding-top: 2px; padding-left: 2px; padding-right: 2px}
+
+.formElementSelectMain {background-color:#F5F5F5; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; width:330px}
+.formElementSelectSub {background-color:#FFFFFF; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; width:330px}
+
+.content { font-family: Verdana; font-size: 10px; color: #666666; text-decoration: none ; padding-bottom: 3px;padding-top: 3px; padding-left: 5px; padding-right: 0px}
+.errors { font-family: Verdana; font-size: 10px; color: #A3000A; text-decoration: none ; padding-bottom: 8px;padding-top: 8px; padding-left: 8px; padding-right: 0px}
+
+.buttonOff { font-size: 10px;font-family: verdana; padding: 0px 0px 0px 0px; cursor:pointer;}
+.buttonOn {font-size: 10px;font-family: verdana; padding: 2px 0px 0px 2px; cursor:pointer;}
+.guideline {font-family:Verdana; font-size:9px; color:#666666;}
+
+.lightTable {background-color:#F4F4F4; padding:0px 0px 0px 0px;}
+

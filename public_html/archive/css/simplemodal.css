@@ -1,0 +1,92 @@
+/*
+* Agency: Clickthinking
+* URL: http://www.clickthinking.com
+*
+* Author: Bernhard Ernst
+* Creation Date: 13 April 2010
+*/
+
+body {height:100%; margin:0;}
+h3 {color:#5f87ae; font-size:1.6em; padding:0; margin:0;}
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:default;}
+
+/* Container */
+#simplemodal-container {/*height:382px; width:398px;*/ /* color:#bbb; */ border:0px solid #444; padding:0px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a { /* color:#ddd; */ color: color: #0D2C52;}
+#simplemodal-container a.modalCloseImg {
+	background:url(/images/sitewide/close_btn.gif) no-repeat;
+	/*width:21px;
+	height:22px;
+	display:block;
+	z-index:3200;
+	cursor:pointer;
+	float:right;
+	margin:26px 0 0;*/
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+	display: block;
+	height: 22px;
+	position: absolute;
+	right: 26px;
+	top: 26px;
+	width: 21px;
+}
+
+#simplemodal-container a.modalCloseImg:hover { background-position:0 -22px;}
+#simplemodal-container #basic-modal-content {padding:8px;}
+
+#send_to_friend_div {width:420px;height:431px;}
+#forgotten_password_div {width:420px;height:228px;}
+
+#simplemodal-overlay{
+	background: #715b36;	
+}
+
+#lightbox_login{
+	background-color:#f5f1e7;
+	/* padding:30px; */
+	font-size: 12px;
+	/* color: #3f3f3f; */
+	width: 360px;
+	height: 180px;
+}
+
+#lightbox_login .login_hdr{
+	font-size: 18px;
+	color: #705b35;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#lightbox_login .irow{margin-top: 12px;}
+
+#lightbox_login input.textinput{
+	background: url(/images/sitewide/login_input_bg.gif) no-repeat;
+	border: none;
+	height: 24px;
+	width: 282px;
+	padding: 7px 0 0 5px;
+}
+
+#lightbox_login .login_btn{margin: 10px 0 0 68px;}
+
+#lightbox_login label{
+	width: 68px;
+	display: block;
+	float: left;
+	margin-top: 8px;
+}	
+
+#lightbox_login .close{
+	background: url(/images/images/lightbox_close.png) no-repeat;
+	position: absolute;	top: -11px;	right: -11px;
+	display: block;
+	width: 22px;
+	height: 22px;
+}

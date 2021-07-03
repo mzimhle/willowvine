@@ -1,0 +1,672 @@
+[04-Jun-2012 17:17:43] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('90', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '90', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '90', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '90')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('90')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[04-Jul-2012 11:23:21] PHP Notice:  Undefined variable: sectionId in /home/willowvi/public_html/careers/default.php on line 59
+[22-Oct-2012 11:27:00] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/c in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[11-Nov-2012 20:24:50] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT COUNT(1)...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT COUNT(1)...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT COUNT(1)...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[14-Nov-2012 10:21:17] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT COUNT(1)...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT COUNT(1)...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT COUNT(1)...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[27-Dec-2012 08:58:57] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: MySQL server has gone away' in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT COUNT(1)...')
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT COUNT(1)...')
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT COUNT(1)...')
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zen in /home/willowvi/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[27-Feb-2013 14:09:21 Europe/Helsinki] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[27-Feb-2013 14:09:21 Europe/Helsinki] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[27-Feb-2013 15:02:17 Europe/Helsinki] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[27-Feb-2013 15:02:17 Europe/Helsinki] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[28-Feb-2013 00:35:37 Europe/Helsinki] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[28-Feb-2013 00:35:37 Europe/Helsinki] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-May-2013 06:34:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 07:22:40 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('47', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '47', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '47', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '47')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('47')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 07:22:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('15', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '15', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '15', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '15')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('15')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 07:23:10 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('55', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '55', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '55', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '55')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('55')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:36 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('12', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '12', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '12', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '12')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('12')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:36 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:36 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('10', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '10', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '10', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '10')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('10')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:37 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('28', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '28', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '28', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '28')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('28')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:37 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('73', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '73', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '73', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '73')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('73')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:38 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:38 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:38 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('64', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '64', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '64', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '64')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('64')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('64', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '64', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '64', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '64')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('64')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('9', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '9', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '9', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '9')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('9')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('83', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '83', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '83', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '83')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('83')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('68', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '68', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '68', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '68')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('68')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('59', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '59', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '59', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '59')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('59')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('career_section', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Tabl in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:44 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('51', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '51', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '51', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '51')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('51')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:44 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('career_section', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Tabl in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:44 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('59', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '59', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '59', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '59')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('59')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:45 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('9', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '9', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '9', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '9')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('9')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:45 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('32', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '32', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '32', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '32')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('32')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('71', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '71', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '71', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '71')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('71')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('71', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '71', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '71', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '71')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('71')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('2', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '2', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '2', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '2')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('2')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:47 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('61', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '61', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '61', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '61')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('61')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:47 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('31', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '31', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '31', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '31')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('31')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:12:47 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('41', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '41', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '41', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '41')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('41')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:13:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:13:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('10', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '10', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '10', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '10')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('10')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:13:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:13:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:13:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('4', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '4', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '4', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '4')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('4')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:13:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('55', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '55', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '55', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '55')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('55')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:13:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('12', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '12', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '12', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '12')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('12')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:13:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('14', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '14', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '14', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '14')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('14')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:13:09 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('3', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '3', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '3', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '3')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('3')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:17:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('4', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '4', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '4', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '4')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('4')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:17:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('27', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '27', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '27', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '27')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('27')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:17:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('37', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '37', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '37', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '37')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('37')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:17:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:17:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:17:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:17:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:17:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:17:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('3', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '3', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '3', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '3')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('3')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 08:17:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('74', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '74', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '74', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '74')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('74')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:04:49 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('7', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '7', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '7', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '7')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('7')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:04:49 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('73', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '73', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '73', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '73')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('73')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:04:49 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('4', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '4', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '4', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '4')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('4')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:04:49 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('48', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '48', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '48', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '48')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('48')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:04:49 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:18:47 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('37', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '37', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '37', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '37')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('37')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:18:47 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('39', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '39', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '39', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '39')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('39')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:18:47 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('49', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '49', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '49', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '49')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('49')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:18:47 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('career_section', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(846): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(886): Zend_Db_Table_Abstract->_getCols()
+#5 /home/willowvi/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#6 /home/willowvi/public_html/library/classes/Zend/Db/Tabl in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:18:47 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(686): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select))
+#2 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(121): Zend_Db_Select->query(2)
+#3 /home/willowvi/public_html/library/classes/Zend/Paginator/Adapter/DbSelect.php(162): Zend_Paginator_Adapter_DbSelect->setRowCount(Object(Zend_Db_Select))
+#4 /home/willowvi/public_html/library/classes/Zend/Paginator.php(1027): Zend_Paginator_Adapter_DbSelect->count()
+#5 /home/willowvi/public_html/library/classes/Zend/Paginator.php(711): Zend_Paginator->_calculatePageCount()
+#6 /home/willowvi/public_html/library/classes/class/caree in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 09:18:47 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('51', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '51', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '51', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '51')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('51')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[12-May-2013 11:26:35 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willowvi_user'@'localhost' (using password: YES)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('11', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '11', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '11', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '11')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('11')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[01-Aug-2013 22:51:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('54', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '54', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '54', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '54')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('54')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[02-Feb-2014 10:09:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('62', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '62', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '62', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '62')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('62')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[28-Mar-2014 07:40:01 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(832): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Abstract.php(902): Zend_Db_Adapter_Abstract->quote('47', NULL)
+#2 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(1000): Zend_Db_Adapter_Abstract->quoteInto('pk_career_id = ...', '47', NULL)
+#3 /home/willowvi/public_html/library/classes/Zend/Db/Select.php(475): Zend_Db_Select->_where('pk_career_id = ...', '47', NULL, true)
+#4 /home/willowvi/public_html/library/classes/class/career.php(152): Zend_Db_Select->where('pk_career_id = ...', '47')
+#5 /home/willowvi/public_html/careers/details.php(29): class_career->getById('47')
+#6 {main}
+  thrown in /home/willowvi/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333

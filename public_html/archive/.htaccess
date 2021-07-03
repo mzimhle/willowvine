@@ -1,0 +1,57 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteBase /
+
+DirectoryIndex index.php default.php
+Options Includes FollowSymLinks MultiViews
+# Job Searches
+RewriteRule ^jobs/search/([^/\.]+)/?$	jobs/search/?sectionUrl=$1 [QSA,L]
+RewriteRule ^jobs/search/([^/\.]+)/details/([^/\.]+)/([^/\.]+)/?$	jobs/search/details.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+RewriteRule ^jobs/search/([^/\.]+)/directions/([^/\.]+)/([^/\.]+)/?$	jobs/search/directions.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+
+# Job Mobi Searches
+RewriteRule ^mobi/jobs/([^/\.]+)/details/([^/\.]+)/([^/\.]+)/?$	mobi/jobs/details.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+RewriteRule ^mobi/jobs/([^/\.]+)/directions/([^/\.]+)/([^/\.]+)/?$	mobi/jobs/directions.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+
+# Job shortlist.
+RewriteRule ^jobs/shortlist/([^/\.]+)/details/([^/\.]+)/([^/\.]+)/?$	jobs/shortlist/details.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+RewriteRule ^jobs/shortlist/([^/\.]+)/directions/([^/\.]+)/([^/\.]+)/?$	jobs/shortlist/directions.php?sectionUrl=$1&jobName=$2&jobReference=$3 [QSA,L]
+
+# Job Seeker.
+RewriteRule ^job_seeker/account/cv/?$	job_seeker/account/cv.php [QSA,L]
+
+# Careers. 
+RewriteRule ^careers/([^/\.]+)/?$	careers/?sectionUrl=$1 [QSA,L]
+RewriteRule ^careers/([^/\.]+)/details/([^/\.]+)/([^/\.]+)/?$	careers/details.php?sectionUrl=$1&careerName=$2&careerId=$3 [QSA,L]
+
+# Internships. 
+RewriteRule ^internships/([^/\.]+)/?$	internships/?sectionUrl=$1 [QSA,L]
+RewriteRule ^internships/([^/\.]+)/details/([^/\.]+)/([^/\.]+)/?$	internships/details.php?sectionUrl=$1&internshipName=$2&internshipId=$3 [QSA,L] 
+
+# Recruiters.
+#RewriteRule ^recruiter/jobs/edit/([^/\.]+)/job/([^/\.]+)/?$		recruiter/jobs/edit.php?post=$1&job=$2 [QSA,L]
+
+# Advice.
+RewriteRule ^advice/write_a_cv/?$				advice/cv.php [QSA,L]
+RewriteRule ^advice/write_a_cover_letter/?$		advice/cover_letter.php [QSA,L]
+RewriteRule ^advice/interview/?$				advice/interview_tips.php [QSA,L]
+RewriteRule ^advice/career/?$					advice/career.php [QSA,L]
+
+# About Us.
+RewriteRule ^about_us/policy/?$					about_us/policy.php [QSA,L]
+
+# Login with gmail.
+# RewriteRule ^gmail_login/?$	includes/gmail_login.php [QSA,L]
+
+# Error pages format link.
+RewriteRule ^errors/404/?$	errors/404.php [QSA,L]
+RewriteRule ^errors/403/?$	errors/403.php [QSA,L]
+
+# LAST LINES. 
+ErrorDocument 404 /errors/404/
+ErrorDocument 403 /errors/403/
+
+# Redirect all non-www to www
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
